@@ -1,0 +1,15 @@
+{
+  "id": "fashion-mini-program",
+  "title": "某服装品牌小程序",
+  "serviceType": "小程序",
+  "industry": "服装",
+  "style": "时尚",
+  "cover": "/images/demo-img/blog-thumb2.png",
+  "images": [
+    "/images/demo-img/blog-thumb2.png",
+    "/images/demo-img/protfolio-thumb1.png"
+  ],
+  "tags": ["小程序", "服装", "时尚"],
+  "featured": false,
+  "date": "2024-09-10"
+}

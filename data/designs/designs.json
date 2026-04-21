@@ -1,0 +1,160 @@
+[
+  {
+    "id": "ecommerce-independent-site",
+    "title": "某跨境电商独立站",
+    "serviceType": "独立站",
+    "industry": "电商",
+    "style": "简约",
+    "cover": "/images/demo-img/protfolio-thumb1.png",
+    "images": [
+      "/images/demo-img/protfolio-thumb1.png",
+      "/images/demo-img/protfolio-thumb2.png",
+      "/images/demo-img/blog-thumb1.png"
+    ],
+    "tags": [
+      "独立站",
+      "电商",
+      "简约"
+    ],
+    "featured": true,
+    "date": "2024-12-15"
+  },
+  {
+    "id": "fashion-mini-program",
+    "title": "某服装品牌小程序",
+    "serviceType": "小程序",
+    "industry": "服装",
+    "style": "时尚",
+    "cover": "/images/demo-img/blog-thumb2.png",
+    "images": [
+      "/images/demo-img/blog-thumb2.png",
+      "/images/demo-img/protfolio-thumb1.png"
+    ],
+    "tags": [
+      "小程序",
+      "服装",
+      "时尚"
+    ],
+    "featured": false,
+    "date": "2024-09-10"
+  },
+  {
+    "id": "gym-mini-program",
+    "title": "某健身房预约小程序",
+    "serviceType": "小程序",
+    "industry": "健身",
+    "style": "科技",
+    "cover": "/images/demo-img/protfolio-thumb1.png",
+    "images": [
+      "/images/demo-img/protfolio-thumb1.png",
+      "/images/demo-img/blog-thumb3.png",
+      "/images/demo-img/protfolio-thumb2.png"
+    ],
+    "tags": [
+      "小程序",
+      "健身",
+      "科技"
+    ],
+    "featured": false,
+    "date": "2024-04-10"
+  },
+  {
+    "id": "home-decor-brand",
+    "title": "某家居品牌独立站",
+    "serviceType": "独立站",
+    "industry": "家居",
+    "style": "商务",
+    "cover": "/images/demo-img/protfolio-thumb2.png",
+    "images": [
+      "/images/demo-img/protfolio-thumb2.png",
+      "/images/demo-img/blog-thumb2.png"
+    ],
+    "tags": [
+      "独立站",
+      "家居",
+      "商务"
+    ],
+    "featured": true,
+    "date": "2024-11-20"
+  },
+  {
+    "id": "luxury-brand-site",
+    "title": "某奢侈品品牌官网",
+    "serviceType": "独立站",
+    "industry": "奢侈品",
+    "style": "高端",
+    "cover": "/images/demo-img/blog-thumb2.png",
+    "images": [
+      "/images/demo-img/blog-thumb2.png",
+      "/images/demo-img/protfolio-thumb2.png",
+      "/images/demo-img/blog-thumb1.png"
+    ],
+    "tags": [
+      "独立站",
+      "奢侈品",
+      "高端"
+    ],
+    "featured": true,
+    "date": "2024-03-25"
+  },
+  {
+    "id": "pet-store-mini-program",
+    "title": "某宠物用品商城小程序",
+    "serviceType": "小程序",
+    "industry": "宠物",
+    "style": "活泼",
+    "cover": "/images/demo-img/blog-thumb1.png",
+    "images": [
+      "/images/demo-img/blog-thumb1.png",
+      "/images/demo-img/blog-thumb3.png",
+      "/images/demo-img/protfolio-thumb1.png"
+    ],
+    "tags": [
+      "小程序",
+      "宠物",
+      "活泼"
+    ],
+    "featured": false,
+    "date": "2024-02-18"
+  },
+  {
+    "id": "restaurant-mini-program",
+    "title": "某餐饮品牌小程序",
+    "serviceType": "小程序",
+    "industry": "餐饮",
+    "style": "活泼",
+    "cover": "/images/demo-img/blog-thumb1.png",
+    "images": [
+      "/images/demo-img/blog-thumb1.png",
+      "/images/demo-img/blog-thumb2.png",
+      "/images/demo-img/blog-thumb3.png"
+    ],
+    "tags": [
+      "小程序",
+      "餐饮",
+      "活泼"
+    ],
+    "featured": true,
+    "date": "2024-10-15"
+  },
+  {
+    "id": "travel-website",
+    "title": "某旅游预订平台",
+    "serviceType": "独立站",
+    "industry": "旅游",
+    "style": "清新",
+    "cover": "/images/demo-img/blog-thumb3.png",
+    "images": [
+      "/images/demo-img/blog-thumb3.png",
+      "/images/demo-img/protfolio-thumb1.png",
+      "/images/demo-img/blog-thumb1.png"
+    ],
+    "tags": [
+      "独立站",
+      "旅游",
+      "清新"
+    ],
+    "featured": false,
+    "date": "2024-06-20"
+  }
+]

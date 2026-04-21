@@ -1,0 +1,16 @@
+{
+  "id": "travel-website",
+  "title": "某旅游预订平台",
+  "serviceType": "独立站",
+  "industry": "旅游",
+  "style": "清新",
+  "cover": "/images/demo-img/blog-thumb3.png",
+  "images": [
+    "/images/demo-img/blog-thumb3.png",
+    "/images/demo-img/protfolio-thumb1.png",
+    "/images/demo-img/blog-thumb1.png"
+  ],
+  "tags": ["独立站", "旅游", "清新"],
+  "featured": false,
+  "date": "2024-06-20"
+}

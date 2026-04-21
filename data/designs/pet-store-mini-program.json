@@ -1,0 +1,16 @@
+{
+  "id": "pet-store-mini-program",
+  "title": "某宠物用品商城小程序",
+  "serviceType": "小程序",
+  "industry": "宠物",
+  "style": "活泼",
+  "cover": "/images/demo-img/blog-thumb1.png",
+  "images": [
+    "/images/demo-img/blog-thumb1.png",
+    "/images/demo-img/blog-thumb3.png",
+    "/images/demo-img/protfolio-thumb1.png"
+  ],
+  "tags": ["小程序", "宠物", "活泼"],
+  "featured": false,
+  "date": "2024-02-18"
+}

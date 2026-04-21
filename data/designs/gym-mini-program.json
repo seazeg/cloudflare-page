@@ -1,0 +1,16 @@
+{
+  "id": "gym-mini-program",
+  "title": "某健身房预约小程序",
+  "serviceType": "小程序",
+  "industry": "健身",
+  "style": "科技",
+  "cover": "/images/demo-img/protfolio-thumb1.png",
+  "images": [
+    "/images/demo-img/protfolio-thumb1.png",
+    "/images/demo-img/blog-thumb3.png",
+    "/images/demo-img/protfolio-thumb2.png"
+  ],
+  "tags": ["小程序", "健身", "科技"],
+  "featured": false,
+  "date": "2024-04-10"
+}

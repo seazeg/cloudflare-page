@@ -1,0 +1,16 @@
+{
+  "id": "education-app",
+  "title": "某在线教育APP",
+  "serviceType": "APP",
+  "industry": "教育",
+  "style": "科技",
+  "cover": "/images/demo-img/blog-thumb3.png",
+  "images": [
+    "/images/demo-img/blog-thumb3.png",
+    "/images/demo-img/protfolio-thumb2.png",
+    "/images/demo-img/blog-thumb1.png"
+  ],
+  "tags": ["APP", "教育", "科技"],
+  "featured": true,
+  "date": "2024-08-20"
+}

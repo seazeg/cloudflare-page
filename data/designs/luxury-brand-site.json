@@ -1,0 +1,16 @@
+{
+  "id": "luxury-brand-site",
+  "title": "某奢侈品品牌官网",
+  "serviceType": "独立站",
+  "industry": "奢侈品",
+  "style": "高端",
+  "cover": "/images/demo-img/blog-thumb2.png",
+  "images": [
+    "/images/demo-img/blog-thumb2.png",
+    "/images/demo-img/protfolio-thumb2.png",
+    "/images/demo-img/blog-thumb1.png"
+  ],
+  "tags": ["独立站", "奢侈品", "高端"],
+  "featured": true,
+  "date": "2024-03-25"
+}

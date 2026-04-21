@@ -1,0 +1,16 @@
+{
+  "id": "ecommerce-independent-site",
+  "title": "某跨境电商独立站",
+  "serviceType": "独立站",
+  "industry": "电商",
+  "style": "简约",
+  "cover": "/images/demo-img/protfolio-thumb1.png",
+  "images": [
+    "/images/demo-img/protfolio-thumb1.png",
+    "/images/demo-img/protfolio-thumb2.png",
+    "/images/demo-img/blog-thumb1.png"
+  ],
+  "tags": ["独立站", "电商", "简约"],
+  "featured": true,
+  "date": "2024-12-15"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "healthcare-app",
+  "title": "某在线医疗咨询APP",
+  "serviceType": "APP",
+  "industry": "医疗",
+  "style": "简约",
+  "cover": "/images/demo-img/blog-thumb3.png",
+  "images": [
+    "/images/demo-img/blog-thumb3.png",
+    "/images/demo-img/protfolio-thumb2.png",
+    "/images/demo-img/blog-thumb2.png"
+  ],
+  "tags": ["APP", "医疗", "简约"],
+  "featured": false,
+  "date": "2024-01-12"
+}

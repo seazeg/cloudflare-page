@@ -1,0 +1,15 @@
+{
+  "id": "beauty-app",
+  "title": "某美容品牌APP",
+  "serviceType": "APP",
+  "industry": "美容",
+  "style": "时尚",
+  "cover": "/images/demo-img/protfolio-thumb1.png",
+  "images": [
+    "/images/demo-img/protfolio-thumb1.png",
+    "/images/demo-img/blog-thumb2.png"
+  ],
+  "tags": ["APP", "美容", "时尚"],
+  "featured": false,
+  "date": "2024-07-15"
+}

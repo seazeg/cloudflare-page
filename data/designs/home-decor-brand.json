@@ -1,0 +1,15 @@
+{
+  "id": "home-decor-brand",
+  "title": "某家居品牌独立站",
+  "serviceType": "独立站",
+  "industry": "家居",
+  "style": "商务",
+  "cover": "/images/demo-img/protfolio-thumb2.png",
+  "images": [
+    "/images/demo-img/protfolio-thumb2.png",
+    "/images/demo-img/blog-thumb2.png"
+  ],
+  "tags": ["独立站", "家居", "商务"],
+  "featured": true,
+  "date": "2024-11-20"
+}

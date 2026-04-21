@@ -1,0 +1,16 @@
+{
+  "id": "finance-app",
+  "title": "某金融理财APP",
+  "serviceType": "APP",
+  "industry": "金融",
+  "style": "商务",
+  "cover": "/images/demo-img/protfolio-thumb2.png",
+  "images": [
+    "/images/demo-img/protfolio-thumb2.png",
+    "/images/demo-img/blog-thumb2.png",
+    "/images/demo-img/protfolio-thumb1.png"
+  ],
+  "tags": ["APP", "金融", "商务"],
+  "featured": true,
+  "date": "2024-05-15"
+}

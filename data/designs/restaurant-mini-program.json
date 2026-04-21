@@ -1,0 +1,16 @@
+{
+  "id": "restaurant-mini-program",
+  "title": "某餐饮品牌小程序",
+  "serviceType": "小程序",
+  "industry": "餐饮",
+  "style": "活泼",
+  "cover": "/images/demo-img/blog-thumb1.png",
+  "images": [
+    "/images/demo-img/blog-thumb1.png",
+    "/images/demo-img/blog-thumb2.png",
+    "/images/demo-img/blog-thumb3.png"
+  ],
+  "tags": ["小程序", "餐饮", "活泼"],
+  "featured": true,
+  "date": "2024-10-15"
+}

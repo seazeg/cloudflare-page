@@ -1,0 +1,50 @@
+[useAnimation] Effect triggered, pathname: /about isFirstLoad: false isRunning: false
+useAnimation.ts:29 [useAnimation] Navigation detected, initializing animations...
+useAnimation.ts:40 [useAnimation] GSAP available: true
+useAnimation.ts:41 [useAnimation] ScrollTrigger available: true
+useAnimation.ts:50 [useAnimation] ScrollTrigger plugin registered
+useAnimation.ts:53 [useAnimation] Killing 7 existing ScrollTrigger instances
+useAnimation.ts:79 [useAnimation] Found 8 .reveal containers before reset
+useAnimation.ts:13 [useAnimation] Effect triggered, pathname: /about isFirstLoad: false isRunning: true
+useAnimation.ts:23 [useAnimation] Animation already running, skipping
+useAnimation.ts:91 [useAnimation] requestAnimationFrame callback
+useAnimation.ts:94 [useAnimation] ScrollTrigger refreshed
+useAnimation.ts:97 [useAnimation] Found 8 .reveal containers for animation
+useAnimation.ts:104 [useAnimation] Container 0: {hasImage: true, rect: {…}, windowHeight: 946, isInViewport: true}
+useAnimation.ts:116 [useAnimation] Container 0: Creating animation...
+useAnimation.ts:123 [useAnimation] Container 0: In viewport, playing immediately
+useAnimation.ts:143 [useAnimation] Container 0: Animation executed
+useAnimation.ts:169 [useAnimation] Container 0: Animation setup complete
+useAnimation.ts:104 [useAnimation] Container 1: {hasImage: true, rect: {…}, windowHeight: 946, isInViewport: true}
+useAnimation.ts:116 [useAnimation] Container 1: Creating animation...
+useAnimation.ts:123 [useAnimation] Container 1: In viewport, playing immediately
+useAnimation.ts:143 [useAnimation] Container 1: Animation executed
+useAnimation.ts:169 [useAnimation] Container 1: Animation setup complete
+useAnimation.ts:104 [useAnimation] Container 2: {hasImage: true, rect: {…}, windowHeight: 946, isInViewport: true}
+useAnimation.ts:116 [useAnimation] Container 2: Creating animation...
+useAnimation.ts:123 [useAnimation] Container 2: In viewport, playing immediately
+useAnimation.ts:143 [useAnimation] Container 2: Animation executed
+useAnimation.ts:169 [useAnimation] Container 2: Animation setup complete
+useAnimation.ts:104 [useAnimation] Container 3: {hasImage: true, rect: {…}, windowHeight: 946, isInViewport: true}
+useAnimation.ts:116 [useAnimation] Container 3: Creating animation...
+useAnimation.ts:123 [useAnimation] Container 3: In viewport, playing immediately
+useAnimation.ts:143 [useAnimation] Container 3: Animation executed
+useAnimation.ts:169 [useAnimation] Container 3: Animation setup complete
+useAnimation.ts:104 [useAnimation] Container 4: {hasImage: true, rect: {…}, windowHeight: 946, isInViewport: false}
+useAnimation.ts:116 [useAnimation] Container 4: Creating animation...
+useAnimation.ts:145 [useAnimation] Container 4: Not in viewport, using ScrollTrigger
+useAnimation.ts:169 [useAnimation] Container 4: Animation setup complete
+useAnimation.ts:104 [useAnimation] Container 5: {hasImage: true, rect: {…}, windowHeight: 946, isInViewport: false}
+useAnimation.ts:116 [useAnimation] Container 5: Creating animation...
+useAnimation.ts:145 [useAnimation] Container 5: Not in viewport, using ScrollTrigger
+useAnimation.ts:169 [useAnimation] Container 5: Animation setup complete
+useAnimation.ts:104 [useAnimation] Container 6: {hasImage: true, rect: {…}, windowHeight: 946, isInViewport: false}
+useAnimation.ts:116 [useAnimation] Container 6: Creating animation...
+useAnimation.ts:145 [useAnimation] Container 6: Not in viewport, using ScrollTrigger
+useAnimation.ts:169 [useAnimation] Container 6: Animation setup complete
+useAnimation.ts:104 [useAnimation] Container 7: {hasImage: true, rect: {…}, windowHeight: 946, isInViewport: false}
+useAnimation.ts:116 [useAnimation] Container 7: Creating animation...
+useAnimation.ts:145 [useAnimation] Container 7: Not in viewport, using ScrollTrigger
+useAnimation.ts:169 [useAnimation] Container 7: Animation setup complete
+useAnimation.ts:173 [useAnimation] Found 6 .split_chars elements
+useAnimation.ts:276 [useAnimation] Animation initialization complete
