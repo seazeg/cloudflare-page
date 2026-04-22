@@ -1,8 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: 'export',
-  distDir: 'dist',
+  output: 'standalone',
+  distDir: '.next',
   images: {
     unoptimized: true,
     formats: ['image/webp'],

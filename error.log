@@ -1,50 +1,718 @@
-[useAnimation] Effect triggered, pathname: /about isFirstLoad: false isRunning: false
-useAnimation.ts:29 [useAnimation] Navigation detected, initializing animations...
-useAnimation.ts:40 [useAnimation] GSAP available: true
-useAnimation.ts:41 [useAnimation] ScrollTrigger available: true
-useAnimation.ts:50 [useAnimation] ScrollTrigger plugin registered
-useAnimation.ts:53 [useAnimation] Killing 7 existing ScrollTrigger instances
-useAnimation.ts:79 [useAnimation] Found 8 .reveal containers before reset
-useAnimation.ts:13 [useAnimation] Effect triggered, pathname: /about isFirstLoad: false isRunning: true
-useAnimation.ts:23 [useAnimation] Animation already running, skipping
-useAnimation.ts:91 [useAnimation] requestAnimationFrame callback
-useAnimation.ts:94 [useAnimation] ScrollTrigger refreshed
-useAnimation.ts:97 [useAnimation] Found 8 .reveal containers for animation
-useAnimation.ts:104 [useAnimation] Container 0: {hasImage: true, rect: {…}, windowHeight: 946, isInViewport: true}
-useAnimation.ts:116 [useAnimation] Container 0: Creating animation...
-useAnimation.ts:123 [useAnimation] Container 0: In viewport, playing immediately
-useAnimation.ts:143 [useAnimation] Container 0: Animation executed
-useAnimation.ts:169 [useAnimation] Container 0: Animation setup complete
-useAnimation.ts:104 [useAnimation] Container 1: {hasImage: true, rect: {…}, windowHeight: 946, isInViewport: true}
-useAnimation.ts:116 [useAnimation] Container 1: Creating animation...
-useAnimation.ts:123 [useAnimation] Container 1: In viewport, playing immediately
-useAnimation.ts:143 [useAnimation] Container 1: Animation executed
-useAnimation.ts:169 [useAnimation] Container 1: Animation setup complete
-useAnimation.ts:104 [useAnimation] Container 2: {hasImage: true, rect: {…}, windowHeight: 946, isInViewport: true}
-useAnimation.ts:116 [useAnimation] Container 2: Creating animation...
-useAnimation.ts:123 [useAnimation] Container 2: In viewport, playing immediately
-useAnimation.ts:143 [useAnimation] Container 2: Animation executed
-useAnimation.ts:169 [useAnimation] Container 2: Animation setup complete
-useAnimation.ts:104 [useAnimation] Container 3: {hasImage: true, rect: {…}, windowHeight: 946, isInViewport: true}
-useAnimation.ts:116 [useAnimation] Container 3: Creating animation...
-useAnimation.ts:123 [useAnimation] Container 3: In viewport, playing immediately
-useAnimation.ts:143 [useAnimation] Container 3: Animation executed
-useAnimation.ts:169 [useAnimation] Container 3: Animation setup complete
-useAnimation.ts:104 [useAnimation] Container 4: {hasImage: true, rect: {…}, windowHeight: 946, isInViewport: false}
-useAnimation.ts:116 [useAnimation] Container 4: Creating animation...
-useAnimation.ts:145 [useAnimation] Container 4: Not in viewport, using ScrollTrigger
-useAnimation.ts:169 [useAnimation] Container 4: Animation setup complete
-useAnimation.ts:104 [useAnimation] Container 5: {hasImage: true, rect: {…}, windowHeight: 946, isInViewport: false}
-useAnimation.ts:116 [useAnimation] Container 5: Creating animation...
-useAnimation.ts:145 [useAnimation] Container 5: Not in viewport, using ScrollTrigger
-useAnimation.ts:169 [useAnimation] Container 5: Animation setup complete
-useAnimation.ts:104 [useAnimation] Container 6: {hasImage: true, rect: {…}, windowHeight: 946, isInViewport: false}
-useAnimation.ts:116 [useAnimation] Container 6: Creating animation...
-useAnimation.ts:145 [useAnimation] Container 6: Not in viewport, using ScrollTrigger
-useAnimation.ts:169 [useAnimation] Container 6: Animation setup complete
-useAnimation.ts:104 [useAnimation] Container 7: {hasImage: true, rect: {…}, windowHeight: 946, isInViewport: false}
-useAnimation.ts:116 [useAnimation] Container 7: Creating animation...
-useAnimation.ts:145 [useAnimation] Container 7: Not in viewport, using ScrollTrigger
-useAnimation.ts:169 [useAnimation] Container 7: Animation setup complete
-useAnimation.ts:173 [useAnimation] Found 6 .split_chars elements
-useAnimation.ts:276 [useAnimation] Animation initialization complete
+2026-04-21T11:21:26.001Z	Initializing build environment...
+2026-04-21T11:21:29.913Z	Success: Finished initializing build environment
+2026-04-21T11:21:30.446Z	Cloning repository...
+2026-04-21T11:21:32.651Z	Restoring from dependencies cache
+2026-04-21T11:21:32.654Z	Restoring from build output cache
+2026-04-21T11:21:32.658Z	Detected the following tools from environment: npm@10.9.2, nodejs@22.16.0
+2026-04-21T11:21:32.767Z	Installing project dependencies: npm clean-install --progress=false
+2026-04-21T11:21:46.501Z	
+2026-04-21T11:21:46.502Z	added 440 packages, and audited 441 packages in 13s
+2026-04-21T11:21:46.502Z	
+2026-04-21T11:21:46.502Z	216 packages are looking for funding
+2026-04-21T11:21:46.502Z	  run `npm fund` for details
+2026-04-21T11:21:46.502Z	
+2026-04-21T11:21:46.502Z	found 0 vulnerabilities
+2026-04-21T11:21:46.723Z	Executing user build command: npm run build
+2026-04-21T11:21:47.408Z	
+2026-04-21T11:21:47.408Z	> template-nextjs@0.1.0 build
+2026-04-21T11:21:47.409Z	> next build
+2026-04-21T11:21:47.409Z	
+2026-04-21T11:21:47.945Z	⚠ No build cache found. Please configure build caching for faster rebuilds. Read more: https://nextjs.org/docs/messages/no-cache
+2026-04-21T11:21:47.952Z	Attention: Next.js now collects completely anonymous telemetry regarding usage.
+2026-04-21T11:21:47.955Z	This information is used to shape Next.js' roadmap and prioritize features.
+2026-04-21T11:21:47.955Z	You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+2026-04-21T11:21:47.955Z	https://nextjs.org/telemetry
+2026-04-21T11:21:47.956Z	
+2026-04-21T11:21:47.979Z	▲ Next.js 16.2.3 (Turbopack)
+2026-04-21T11:21:47.979Z	- Experiments (use with caution):
+2026-04-21T11:21:47.979Z	  · optimizePackageImports
+2026-04-21T11:21:47.980Z	
+2026-04-21T11:21:48.086Z	  Creating an optimized production build ...
+2026-04-21T11:21:55.838Z	✓ Compiled successfully in 7.5s
+2026-04-21T11:21:55.844Z	  Running TypeScript ...
+2026-04-21T11:22:00.756Z	  Finished TypeScript in 4.9s ...
+2026-04-21T11:22:00.764Z	  Collecting page data using 1 worker ...
+2026-04-21T11:22:01.198Z	  Generating static pages using 1 worker (0/25) ...
+2026-04-21T11:22:01.286Z	⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+2026-04-21T11:22:01.287Z	⚠ Unsupported metadata viewport is configured in metadata export in /about. Please move it to viewport export instead.
+2026-04-21T11:22:01.287Z	Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2026-04-21T11:22:01.372Z	⚠ Unsupported metadata viewport is configured in metadata export in /blog/[slug]. Please move it to viewport export instead.
+2026-04-21T11:22:01.377Z	Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2026-04-21T11:22:01.389Z	⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+2026-04-21T11:22:01.389Z	Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2026-04-21T11:22:01.436Z	⚠ Unsupported metadata viewport is configured in metadata export in /blog/[slug]. Please move it to viewport export instead.
+2026-04-21T11:22:01.436Z	Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2026-04-21T11:22:01.477Z	⚠ Unsupported metadata viewport is configured in metadata export in /blog/[slug]. Please move it to viewport export instead.
+2026-04-21T11:22:01.478Z	Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2026-04-21T11:22:01.531Z	⚠ Unsupported metadata viewport is configured in metadata export in /blog/[slug]. Please move it to viewport export instead.
+2026-04-21T11:22:01.532Z	Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2026-04-21T11:22:01.560Z	⚠ Unsupported metadata viewport is configured in metadata export in /blog/[slug]. Please move it to viewport export instead.
+2026-04-21T11:22:01.560Z	Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2026-04-21T11:22:01.675Z	  Generating static pages using 1 worker (6/25) 
+2026-04-21T11:22:01.691Z	⚠ Unsupported metadata viewport is configured in metadata export in /blog. Please move it to viewport export instead.
+2026-04-21T11:22:01.691Z	Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2026-04-21T11:22:01.706Z	⚠ Unsupported metadata viewport is configured in metadata export in /chatbot. Please move it to viewport export instead.
+2026-04-21T11:22:01.706Z	Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2026-04-21T11:22:01.710Z	⚠ Unsupported metadata viewport is configured in metadata export in /contact. Please move it to viewport export instead.
+2026-04-21T11:22:01.710Z	Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2026-04-21T11:22:01.718Z	⚠ Unsupported metadata viewport is configured in metadata export in /designs. Please move it to viewport export instead.
+2026-04-21T11:22:01.719Z	Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2026-04-21T11:22:01.738Z	⚠ Unsupported metadata viewport is configured in metadata export in /faq. Please move it to viewport export instead.
+2026-04-21T11:22:01.738Z	Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2026-04-21T11:22:01.744Z	⚠ Unsupported metadata viewport is configured in metadata export in /features. Please move it to viewport export instead.
+2026-04-21T11:22:01.744Z	Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2026-04-21T11:22:01.752Z	⚠ Unsupported metadata viewport is configured in metadata export in /integrations. Please move it to viewport export instead.
+2026-04-21T11:22:01.752Z	Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2026-04-21T11:22:01.812Z	  Generating static pages using 1 worker (12/25) 
+2026-04-21T11:22:01.818Z	⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+2026-04-21T11:22:01.819Z	Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2026-04-21T11:22:01.832Z	⚠ Unsupported metadata viewport is configured in metadata export in /services/[slug]. Please move it to viewport export instead.
+2026-04-21T11:22:01.832Z	Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2026-04-21T11:22:01.843Z	⚠ Unsupported metadata viewport is configured in metadata export in /pricing. Please move it to viewport export instead.
+2026-04-21T11:22:01.843Z	Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2026-04-21T11:22:01.846Z	⚠ Unsupported metadata viewport is configured in metadata export in /services/[slug]. Please move it to viewport export instead.
+2026-04-21T11:22:01.846Z	Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2026-04-21T11:22:01.852Z	⚠ Unsupported metadata viewport is configured in metadata export in /services. Please move it to viewport export instead.
+2026-04-21T11:22:01.853Z	Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2026-04-21T11:22:01.858Z	⚠ Unsupported metadata viewport is configured in metadata export in /team/[slug]. Please move it to viewport export instead.
+2026-04-21T11:22:01.858Z	Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2026-04-21T11:22:01.862Z	⚠ Unsupported metadata viewport is configured in metadata export in /team/[slug]. Please move it to viewport export instead.
+2026-04-21T11:22:01.862Z	Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2026-04-21T11:22:01.869Z	⚠ Unsupported metadata viewport is configured in metadata export in /team/[slug]. Please move it to viewport export instead.
+2026-04-21T11:22:01.869Z	Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2026-04-21T11:22:01.911Z	  Generating static pages using 1 worker (18/25) 
+2026-04-21T11:22:01.915Z	⚠ Unsupported metadata viewport is configured in metadata export in /team. Please move it to viewport export instead.
+2026-04-21T11:22:01.915Z	Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2026-04-21T11:22:01.923Z	✓ Generating static pages using 1 worker (25/25) in 725ms
+2026-04-21T11:22:01.930Z	  Finalizing page optimization ...
+2026-04-21T11:22:02.038Z	
+2026-04-21T11:22:02.040Z	Route (app)
+2026-04-21T11:22:02.041Z	┌ ○ /
+2026-04-21T11:22:02.041Z	├ ○ /_not-found
+2026-04-21T11:22:02.041Z	├ ○ /about
+2026-04-21T11:22:02.041Z	├ ○ /blog
+2026-04-21T11:22:02.041Z	├ ● /blog/[slug]
+2026-04-21T11:22:02.042Z	│ ├ /blog/2025-ecommerce-trends
+2026-04-21T11:22:02.042Z	│ ├ /blog/how-to-choose-platform
+2026-04-21T11:22:02.042Z	│ ├ /blog/seo-optimization-tips
+2026-04-21T11:22:02.042Z	│ └ [+2 more paths]
+2026-04-21T11:22:02.042Z	├ ○ /chatbot
+2026-04-21T11:22:02.042Z	├ ○ /contact
+2026-04-21T11:22:02.042Z	├ ○ /designs
+2026-04-21T11:22:02.042Z	├ ○ /faq
+2026-04-21T11:22:02.043Z	├ ○ /features
+2026-04-21T11:22:02.043Z	├ ○ /integrations
+2026-04-21T11:22:02.043Z	├ ○ /pricing
+2026-04-21T11:22:02.043Z	├ ○ /services
+2026-04-21T11:22:02.043Z	├ ● /services/[slug]
+2026-04-21T11:22:02.043Z	│ ├ /services/website
+2026-04-21T11:22:02.043Z	│ └ /services/miniprogram
+2026-04-21T11:22:02.043Z	├ ○ /team
+2026-04-21T11:22:02.044Z	└ ● /team/[slug]
+2026-04-21T11:22:02.044Z	  ├ /team/member-1
+2026-04-21T11:22:02.044Z	  ├ /team/member-2
+2026-04-21T11:22:02.044Z	  └ /team/member-3
+2026-04-21T11:22:02.044Z	
+2026-04-21T11:22:02.044Z	
+2026-04-21T11:22:02.044Z	○  (Static)  prerendered as static content
+2026-04-21T11:22:02.044Z	●  (SSG)     prerendered as static HTML (uses generateStaticParams)
+2026-04-21T11:22:02.044Z	
+2026-04-21T11:22:02.091Z	Success: Build command completed
+2026-04-21T11:22:02.341Z	Executing user deploy command: npx wrangler deploy
+2026-04-21T11:22:03.288Z	npm warn exec The following package was not found and will be installed: wrangler@4.84.0
+2026-04-21T11:22:13.118Z	
+2026-04-21T11:22:13.119Z	 ⛅️ wrangler 4.84.0
+2026-04-21T11:22:13.120Z	───────────────────
+2026-04-21T11:22:13.298Z	
+2026-04-21T11:22:13.300Z	Detected Project Settings:
+2026-04-21T11:22:13.300Z	 - Worker Name: surmox
+2026-04-21T11:22:13.300Z	 - Framework: Next.js
+2026-04-21T11:22:13.300Z	 - Build Command: npm run build
+2026-04-21T11:22:13.300Z	 - Output Directory: .next
+2026-04-21T11:22:13.300Z	
+2026-04-21T11:22:13.301Z	? Do you want to modify these settings?
+2026-04-21T11:22:13.301Z	🤖 Using fallback value in non-interactive context: no
+2026-04-21T11:22:13.306Z	
+2026-04-21T11:22:13.307Z	📦 Install packages:
+2026-04-21T11:22:13.307Z	 - wrangler (devDependency)
+2026-04-21T11:22:13.307Z	
+2026-04-21T11:22:13.307Z	📝 Update package.json scripts:
+2026-04-21T11:22:13.307Z	 - "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy"
+2026-04-21T11:22:13.307Z	 - "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview"
+2026-04-21T11:22:13.307Z	
+2026-04-21T11:22:13.307Z	📄 Create wrangler.jsonc:
+2026-04-21T11:22:13.307Z	  {
+2026-04-21T11:22:13.307Z	    "$schema": "node_modules/wrangler/config-schema.json",
+2026-04-21T11:22:13.307Z	    "name": "surmox",
+2026-04-21T11:22:13.307Z	    "compatibility_date": "2026-04-21",
+2026-04-21T11:22:13.307Z	    "observability": {
+2026-04-21T11:22:13.307Z	      "enabled": true
+2026-04-21T11:22:13.307Z	    },
+2026-04-21T11:22:13.307Z	    "compatibility_flags": [
+2026-04-21T11:22:13.307Z	      "nodejs_compat"
+2026-04-21T11:22:13.307Z	    ]
+2026-04-21T11:22:13.307Z	  }
+2026-04-21T11:22:13.308Z	
+2026-04-21T11:22:13.308Z	🛠️  Configuring project for Next.js with OpenNext by running `@opennextjs/cloudflare migrate`
+2026-04-21T11:22:13.308Z	
+2026-04-21T11:22:13.308Z	? Proceed with setup?
+2026-04-21T11:22:13.308Z	🤖 Using fallback value in non-interactive context: yes
+2026-04-21T11:22:18.882Z	npm warn exec The following package was not found and will be installed: @opennextjs/cloudflare@1.19.3
+2026-04-21T11:22:38.571Z	npm warn deprecated node-domexception@1.0.0: Use your platform's native DOMException instead
+2026-04-21T11:22:39.060Z	npm warn deprecated glob@9.3.5: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+2026-04-21T11:22:48.461Z	
+2026-04-21T11:22:48.461Z	┌───────────────────────────────┐
+2026-04-21T11:22:48.461Z	│ OpenNext — Cloudflare migrate │
+2026-04-21T11:22:48.461Z	└───────────────────────────────┘
+2026-04-21T11:22:48.461Z	
+2026-04-21T11:22:48.461Z	🚀 Setting up the OpenNext Cloudflare adapter...
+2026-04-21T11:22:48.462Z	
+2026-04-21T11:22:48.469Z	⚙️  Installing dependencies...
+2026-04-21T11:22:48.469Z	
+2026-04-21T11:22:48.624Z	npm warn using --force Recommended protections disabled.
+2026-04-21T11:22:54.045Z	npm warn deprecated node-domexception@1.0.0: Use your platform's native DOMException instead
+2026-04-21T11:22:54.174Z	npm warn deprecated glob@9.3.5: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+2026-04-21T11:22:55.823Z	
+2026-04-21T11:22:55.827Z	added 274 packages, and audited 742 packages in 7s
+2026-04-21T11:22:55.827Z	
+2026-04-21T11:22:55.827Z	264 packages are looking for funding
+2026-04-21T11:22:55.827Z	  run `npm fund` for details
+2026-04-21T11:22:55.827Z	
+2026-04-21T11:22:55.827Z	found 0 vulnerabilities
+2026-04-21T11:22:55.974Z	npm warn using --force Recommended protections disabled.
+2026-04-21T11:22:57.608Z	
+2026-04-21T11:22:57.608Z	added 1 package, and audited 743 packages in 2s
+2026-04-21T11:22:57.608Z	
+2026-04-21T11:22:57.608Z	264 packages are looking for funding
+2026-04-21T11:22:57.608Z	  run `npm fund` for details
+2026-04-21T11:22:57.608Z	
+2026-04-21T11:22:57.608Z	found 0 vulnerabilities
+2026-04-21T11:22:57.627Z	⚙️  Creating wrangler.jsonc...
+2026-04-21T11:22:57.627Z	
+2026-04-21T11:22:59.460Z	WARN Failed to set up cache for your project.
+2026-04-21T11:22:59.461Z	After the migration completes, please manually setup cache in  wrangler.jsonc and open-next.config.ts files (for more details see: https://opennext.js.org/cloudflare/caching).
+2026-04-21T11:22:59.461Z	
+2026-04-21T11:22:59.461Z	⚙️  Creating open-next.config.ts...
+2026-04-21T11:22:59.461Z	
+2026-04-21T11:22:59.469Z	⚙️  Creating .dev.vars file...
+2026-04-21T11:22:59.469Z	
+2026-04-21T11:22:59.469Z	⚙️  Creating public/_headers file...
+2026-04-21T11:22:59.469Z	
+2026-04-21T11:22:59.469Z	⚙️  Updating package.json scripts...
+2026-04-21T11:22:59.469Z	
+2026-04-21T11:22:59.470Z	⚙️  Updating .gitignore file...
+2026-04-21T11:22:59.470Z	
+2026-04-21T11:22:59.471Z	⚙️  Updating Next.js config...
+2026-04-21T11:22:59.471Z	
+2026-04-21T11:22:59.471Z	⚙️  Checking for edge runtime usage...
+2026-04-21T11:22:59.471Z	
+2026-04-21T11:22:59.476Z	🎉 OpenNext Cloudflare adapter complete!
+2026-04-21T11:22:59.476Z	
+2026-04-21T11:22:59.476Z	Next steps:
+2026-04-21T11:22:59.476Z	- Run: "npm run preview" to build and preview your Cloudflare application locally
+2026-04-21T11:22:59.476Z	- Run: "npm run deploy" to deploy your application to Cloudflare Workers
+2026-04-21T11:22:59.476Z	- ⚠️  Setup cache, see https://opennext.js.org/cloudflare/caching for more details
+2026-04-21T11:22:59.476Z	
+2026-04-21T11:22:59.563Z	├ Adding Wrangler files to the .gitignore file
+2026-04-21T11:22:59.563Z	│ updated .gitignore file
+2026-04-21T11:22:59.563Z	│
+2026-04-21T11:22:59.563Z	[build] Running: npx opennextjs-cloudflare build
+2026-04-21T11:23:01.593Z	[build] 
+2026-04-21T11:23:01.595Z	[build] ┌─────────────────────────────┐
+2026-04-21T11:23:01.595Z	[build] │ OpenNext — Cloudflare build │
+2026-04-21T11:23:01.595Z	[build] └─────────────────────────────┘
+2026-04-21T11:23:01.596Z	[build] 
+2026-04-21T11:23:01.596Z	[build] 
+2026-04-21T11:23:01.716Z	[build] App directory: /opt/buildhome/repo
+2026-04-21T11:23:01.717Z	[build] Next.js version : 16.2.3
+2026-04-21T11:23:01.717Z	[build] 
+2026-04-21T11:23:01.718Z	[build] @opennextjs/cloudflare version: 1.19.3
+2026-04-21T11:23:01.718Z	[build] @opennextjs/aws version: 3.10.2
+2026-04-21T11:23:01.718Z	[build] 
+2026-04-21T11:23:01.720Z	[build] 
+2026-04-21T11:23:01.720Z	[build] ┌─────────────────────────────────┐
+2026-04-21T11:23:01.720Z	[build] │ OpenNext — Building Next.js app │
+2026-04-21T11:23:01.720Z	[build] └─────────────────────────────────┘
+2026-04-21T11:23:01.721Z	[build] 
+2026-04-21T11:23:01.721Z	[build] 
+2026-04-21T11:23:01.895Z	[build] 
+2026-04-21T11:23:01.895Z	[build] > template-nextjs@0.1.0 build
+2026-04-21T11:23:01.895Z	[build] > next build
+2026-04-21T11:23:01.896Z	[build] 
+2026-04-21T11:23:01.896Z	[build] 
+2026-04-21T11:23:02.417Z	[build] ▲ Next.js 16.2.3 (Turbopack)
+2026-04-21T11:23:02.417Z	[build] 
+2026-04-21T11:23:02.417Z	[build] - Experiments (use with caution):
+2026-04-21T11:23:02.417Z	[build]   · optimizePackageImports
+2026-04-21T11:23:02.417Z	[build] 
+2026-04-21T11:23:02.417Z	[build] 
+2026-04-21T11:23:03.444Z	[build] Using secrets defined in .dev.vars
+2026-04-21T11:23:03.445Z	[build] 
+2026-04-21T11:23:03.464Z	[build]   Creating an optimized production build ...
+2026-04-21T11:23:03.465Z	[build] 
+2026-04-21T11:23:11.388Z	[build] ✓ Compiled successfully in 7.6s
+2026-04-21T11:23:11.392Z	[build] 
+2026-04-21T11:23:11.396Z	[build]   Running TypeScript ...
+2026-04-21T11:23:11.396Z	[build] 
+2026-04-21T11:23:18.023Z	[build]   Finished TypeScript in 6.6s ...
+2026-04-21T11:23:18.023Z	[build] 
+2026-04-21T11:23:18.026Z	[build]   Collecting page data using 1 worker ...
+2026-04-21T11:23:18.026Z	[build] 
+2026-04-21T11:23:18.487Z	[build]   Generating static pages using 1 worker (0/25) ...
+2026-04-21T11:23:18.488Z	[build] 
+2026-04-21T11:23:18.579Z	[build] ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+2026-04-21T11:23:18.579Z	[build] 
+2026-04-21T11:23:18.579Z	[build] ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+2026-04-21T11:23:18.579Z	[build] Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2026-04-21T11:23:18.579Z	[build] 
+2026-04-21T11:23:18.589Z	[build] ⚠ Unsupported metadata viewport is configured in metadata export in /about. Please move it to viewport export instead.
+2026-04-21T11:23:18.590Z	[build] Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2026-04-21T11:23:18.590Z	[build] 
+2026-04-21T11:23:18.687Z	[build] ⚠ Unsupported metadata viewport is configured in metadata export in /blog/[slug]. Please move it to viewport export instead.
+2026-04-21T11:23:18.688Z	[build] Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2026-04-21T11:23:18.688Z	[build] 
+2026-04-21T11:23:18.754Z	[build] ⚠ Unsupported metadata viewport is configured in metadata export in /blog/[slug]. Please move it to viewport export instead.
+2026-04-21T11:23:18.754Z	[build] Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2026-04-21T11:23:18.755Z	[build] 
+2026-04-21T11:23:18.806Z	[build] ⚠ Unsupported metadata viewport is configured in metadata export in /blog/[slug]. Please move it to viewport export instead.
+2026-04-21T11:23:18.807Z	[build] Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2026-04-21T11:23:18.807Z	[build] 
+2026-04-21T11:23:18.863Z	[build] ⚠ Unsupported metadata viewport is configured in metadata export in /blog/[slug]. Please move it to viewport export instead.
+2026-04-21T11:23:18.864Z	[build] Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2026-04-21T11:23:18.864Z	[build] 
+2026-04-21T11:23:18.892Z	[build] ⚠ Unsupported metadata viewport is configured in metadata export in /blog/[slug]. Please move it to viewport export instead.
+2026-04-21T11:23:18.892Z	[build] Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2026-04-21T11:23:18.892Z	[build] 
+2026-04-21T11:23:19.021Z	[build]   Generating static pages using 1 worker (6/25) 
+2026-04-21T11:23:19.022Z	[build] 
+2026-04-21T11:23:19.044Z	[build] ⚠ Unsupported metadata viewport is configured in metadata export in /blog. Please move it to viewport export instead.
+2026-04-21T11:23:19.044Z	[build] Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2026-04-21T11:23:19.044Z	[build] 
+2026-04-21T11:23:19.053Z	[build] ⚠ Unsupported metadata viewport is configured in metadata export in /chatbot. Please move it to viewport export instead.
+2026-04-21T11:23:19.053Z	[build] Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2026-04-21T11:23:19.054Z	[build] 
+2026-04-21T11:23:19.064Z	[build] ⚠ Unsupported metadata viewport is configured in metadata export in /contact. Please move it to viewport export instead.
+2026-04-21T11:23:19.064Z	[build] Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2026-04-21T11:23:19.065Z	[build] 
+2026-04-21T11:23:19.075Z	[build] ⚠ Unsupported metadata viewport is configured in metadata export in /designs. Please move it to viewport export instead.
+2026-04-21T11:23:19.076Z	[build] Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2026-04-21T11:23:19.077Z	[build] 
+2026-04-21T11:23:19.097Z	[build] ⚠ Unsupported metadata viewport is configured in metadata export in /faq. Please move it to viewport export instead.
+2026-04-21T11:23:19.097Z	[build] Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2026-04-21T11:23:19.098Z	[build] 
+2026-04-21T11:23:19.106Z	[build] ⚠ Unsupported metadata viewport is configured in metadata export in /features. Please move it to viewport export instead.
+2026-04-21T11:23:19.106Z	[build] Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2026-04-21T11:23:19.106Z	[build] 
+2026-04-21T11:23:19.120Z	[build] ⚠ Unsupported metadata viewport is configured in metadata export in /integrations. Please move it to viewport export instead.
+2026-04-21T11:23:19.122Z	[build] Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2026-04-21T11:23:19.122Z	[build] 
+2026-04-21T11:23:19.173Z	[build]   Generating static pages using 1 worker (12/25) 
+2026-04-21T11:23:19.173Z	[build] 
+2026-04-21T11:23:19.180Z	[build] ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+2026-04-21T11:23:19.180Z	[build] Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2026-04-21T11:23:19.180Z	[build] 
+2026-04-21T11:23:19.199Z	[build] ⚠ Unsupported metadata viewport is configured in metadata export in /pricing. Please move it to viewport export instead.
+2026-04-21T11:23:19.202Z	[build] Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2026-04-21T11:23:19.202Z	[build] 
+2026-04-21T11:23:19.213Z	[build] ⚠ Unsupported metadata viewport is configured in metadata export in /services/[slug]. Please move it to viewport export instead.
+2026-04-21T11:23:19.214Z	[build] Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2026-04-21T11:23:19.214Z	[build] 
+2026-04-21T11:23:19.220Z	[build] ⚠ Unsupported metadata viewport is configured in metadata export in /services/[slug]. Please move it to viewport export instead.
+2026-04-21T11:23:19.220Z	[build] Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2026-04-21T11:23:19.220Z	[build] 
+2026-04-21T11:23:19.225Z	[build] ⚠ Unsupported metadata viewport is configured in metadata export in /services. Please move it to viewport export instead.
+2026-04-21T11:23:19.226Z	[build] Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2026-04-21T11:23:19.226Z	[build] 
+2026-04-21T11:23:19.231Z	[build] ⚠ Unsupported metadata viewport is configured in metadata export in /team/[slug]. Please move it to viewport export instead.
+2026-04-21T11:23:19.231Z	[build] Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2026-04-21T11:23:19.232Z	[build] 
+2026-04-21T11:23:19.237Z	[build] ⚠ Unsupported metadata viewport is configured in metadata export in /team/[slug]. Please move it to viewport export instead.
+2026-04-21T11:23:19.238Z	[build] Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2026-04-21T11:23:19.238Z	[build] 
+2026-04-21T11:23:19.247Z	[build] ⚠ Unsupported metadata viewport is configured in metadata export in /team/[slug]. Please move it to viewport export instead.
+2026-04-21T11:23:19.247Z	[build] Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2026-04-21T11:23:19.248Z	[build] 
+2026-04-21T11:23:19.304Z	[build]   Generating static pages using 1 worker (18/25) 
+2026-04-21T11:23:19.304Z	[build] 
+2026-04-21T11:23:19.309Z	[build] ⚠ Unsupported metadata viewport is configured in metadata export in /team. Please move it to viewport export instead.
+2026-04-21T11:23:19.310Z	[build] Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2026-04-21T11:23:19.310Z	[build] 
+2026-04-21T11:23:19.323Z	[build] ✓ Generating static pages using 1 worker (25/25) in 836ms
+2026-04-21T11:23:19.324Z	[build] 
+2026-04-21T11:23:19.332Z	[build]   Finalizing page optimization ...
+2026-04-21T11:23:19.332Z	[build] 
+2026-04-21T11:23:19.469Z	[build] 
+2026-04-21T11:23:19.469Z	[build] 
+2026-04-21T11:23:19.473Z	[build] Route (app)
+2026-04-21T11:23:19.473Z	[build] ┌ ○ /
+2026-04-21T11:23:19.473Z	[build] ├ ○ /_not-found
+2026-04-21T11:23:19.473Z	[build] ├ ○ /about
+2026-04-21T11:23:19.473Z	[build] ├ ○ /blog
+2026-04-21T11:23:19.473Z	[build] ├ ● /blog/[slug]
+2026-04-21T11:23:19.473Z	[build] │ ├ /blog/2025-ecommerce-trends
+2026-04-21T11:23:19.473Z	[build] │ ├ /blog/how-to-choose-platform
+2026-04-21T11:23:19.473Z	[build] │ ├ /blog/seo-optimization-tips
+2026-04-21T11:23:19.474Z	[build] │ └ [+2 more paths]
+2026-04-21T11:23:19.474Z	[build] ├ ○ /chatbot
+2026-04-21T11:23:19.474Z	[build] ├ ○ /contact
+2026-04-21T11:23:19.474Z	[build] ├ ○ /designs
+2026-04-21T11:23:19.474Z	[build] ├ ○ /faq
+2026-04-21T11:23:19.474Z	[build] ├ ○ /features
+2026-04-21T11:23:19.474Z	[build] ├ ○ /integrations
+2026-04-21T11:23:19.474Z	[build] ├ ○ /pricing
+2026-04-21T11:23:19.474Z	[build] ├ ○ /services
+2026-04-21T11:23:19.474Z	[build] ├ ● /services/[slug]
+2026-04-21T11:23:19.474Z	[build] │ ├ /services/website
+2026-04-21T11:23:19.474Z	[build] │ └ /services/miniprogram
+2026-04-21T11:23:19.474Z	[build] ├ ○ /team
+2026-04-21T11:23:19.474Z	[build] └ ● /team/[slug]
+2026-04-21T11:23:19.474Z	[build]   ├ /team/member-1
+2026-04-21T11:23:19.474Z	[build]   ├ /team/member-2
+2026-04-21T11:23:19.475Z	[build]   └ /team/member-3
+2026-04-21T11:23:19.475Z	[build] 
+2026-04-21T11:23:19.475Z	[build] 
+2026-04-21T11:23:19.475Z	[build] 
+2026-04-21T11:23:19.476Z	[build] ○  (Static)  prerendered as static content
+2026-04-21T11:23:19.476Z	[build] ●  (SSG)     prerendered as static HTML (uses generateStaticParams)
+2026-04-21T11:23:19.476Z	[build] 
+2026-04-21T11:23:19.476Z	[build] 
+2026-04-21T11:23:19.561Z	[build] 
+2026-04-21T11:23:19.562Z	[build] ┌──────────────────────────────┐
+2026-04-21T11:23:19.562Z	[build] │ OpenNext — Generating bundle │
+2026-04-21T11:23:19.562Z	[build] └──────────────────────────────┘
+2026-04-21T11:23:19.562Z	[build] 
+2026-04-21T11:23:19.563Z	[build] 
+2026-04-21T11:23:19.638Z	[build] Bundling middleware function...
+2026-04-21T11:23:19.638Z	[build] 
+2026-04-21T11:23:19.713Z	[build] Bundling static assets...
+2026-04-21T11:23:19.713Z	[build] 
+2026-04-21T11:23:19.839Z	[build] Bundling cache assets...
+2026-04-21T11:23:19.839Z	[build] 
+2026-04-21T11:23:19.844Z	[build] node:fs:442
+2026-04-21T11:23:19.844Z	[build]     return binding.readFileUtf8(path, stringToFlags(options.flag));
+2026-04-21T11:23:19.844Z	[build]                    ^
+2026-04-21T11:23:19.845Z	[build] 
+2026-04-21T11:23:19.845Z	[build] Error: ENOENT: no such file or directory, open '/opt/buildhome/repo/.next/standalone/.next/server/pages-manifest.json'
+2026-04-21T11:23:19.845Z	[build]     at Object.readFileSync (node:fs:442:20)
+2026-04-21T11:23:19.845Z	[build]     at Module.getHtmlPages (file:///opt/buildhome/repo/node_modules/@opennextjs/aws/dist/build/helper.js:191:25)
+2026-04-21T11:23:19.845Z	[build]     at createCacheAssets (file:///opt/buildhome/repo/node_modules/@opennextjs/aws/dist/build/createAssets.js:75:35)
+2026-04-21T11:23:19.846Z	[build]     at build (file:///opt/buildhome/repo/node_modules/@opennextjs/cloudflare/dist/cli/build/build.js:69:44)
+2026-04-21T11:23:19.846Z	[build]     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2026-04-21T11:23:19.846Z	[build]     at async buildCommand (file:///opt/buildhome/repo/node_modules/@opennextjs/cloudflare/dist/cli/commands/build.js:40:5) {
+2026-04-21T11:23:19.846Z	[build]   errno: -2,
+2026-04-21T11:23:19.847Z	[build]   code: 'ENOENT',
+2026-04-21T11:23:19.847Z	[build]   syscall: 'open',
+2026-04-21T11:23:19.848Z	[build]   path: '/opt/buildhome/repo/.next/standalone/.next/server/pages-manifest.json'
+2026-04-21T11:23:19.848Z	[build] }
+2026-04-21T11:23:19.848Z	[build] 
+2026-04-21T11:23:19.848Z	[build] Node.js v22.16.0
+2026-04-21T11:23:19.848Z	[build] 
+2026-04-21T11:23:19.980Z	✘ [ERROR] Error: Command failed with exit code 1: npx opennextjs-cloudflare build
+2026-04-21T11:23:19.981Z	
+2026-04-21T11:23:19.981Z	  ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+2026-04-21T11:23:19.981Z	  ⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.
+2026-04-21T11:23:19.981Z	  Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2026-04-21T11:23:19.981Z	  ⚠ Unsupported metadata viewport is configured in metadata export in /about. Please move it to viewport export instead.
+2026-04-21T11:23:19.981Z	  Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2026-04-21T11:23:19.981Z	  ⚠ Unsupported metadata viewport is configured in metadata export in /blog/[slug]. Please move it to viewport export instead.
+2026-04-21T11:23:19.981Z	  Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2026-04-21T11:23:19.981Z	  ⚠ Unsupported metadata viewport is configured in metadata export in /blog/[slug]. Please move it to viewport export instead.
+2026-04-21T11:23:19.981Z	  Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2026-04-21T11:23:19.981Z	  ⚠ Unsupported metadata viewport is configured in metadata export in /blog/[slug]. Please move it to viewport export instead.
+2026-04-21T11:23:19.982Z	  Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2026-04-21T11:23:19.982Z	  ⚠ Unsupported metadata viewport is configured in metadata export in /blog/[slug]. Please move it to viewport export instead.
+2026-04-21T11:23:19.982Z	  Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2026-04-21T11:23:19.982Z	  ⚠ Unsupported metadata viewport is configured in metadata export in /blog/[slug]. Please move it to viewport export instead.
+2026-04-21T11:23:19.982Z	  Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2026-04-21T11:23:19.982Z	  ⚠ Unsupported metadata viewport is configured in metadata export in /blog. Please move it to viewport export instead.
+2026-04-21T11:23:19.982Z	  Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2026-04-21T11:23:19.982Z	  ⚠ Unsupported metadata viewport is configured in metadata export in /chatbot. Please move it to viewport export instead.
+2026-04-21T11:23:19.982Z	  Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2026-04-21T11:23:19.982Z	  ⚠ Unsupported metadata viewport is configured in metadata export in /contact. Please move it to viewport export instead.
+2026-04-21T11:23:19.982Z	  Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2026-04-21T11:23:19.982Z	  ⚠ Unsupported metadata viewport is configured in metadata export in /designs. Please move it to viewport export instead.
+2026-04-21T11:23:19.982Z	  Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2026-04-21T11:23:19.982Z	  ⚠ Unsupported metadata viewport is configured in metadata export in /faq. Please move it to viewport export instead.
+2026-04-21T11:23:19.982Z	  Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2026-04-21T11:23:19.982Z	  ⚠ Unsupported metadata viewport is configured in metadata export in /features. Please move it to viewport export instead.
+2026-04-21T11:23:19.982Z	  Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2026-04-21T11:23:19.982Z	  ⚠ Unsupported metadata viewport is configured in metadata export in /integrations. Please move it to viewport export instead.
+2026-04-21T11:23:19.982Z	  Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2026-04-21T11:23:19.982Z	  ⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+2026-04-21T11:23:19.982Z	  Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2026-04-21T11:23:19.982Z	  ⚠ Unsupported metadata viewport is configured in metadata export in /pricing. Please move it to viewport export instead.
+2026-04-21T11:23:19.983Z	  Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2026-04-21T11:23:19.983Z	  ⚠ Unsupported metadata viewport is configured in metadata export in /services/[slug]. Please move it to viewport export instead.
+2026-04-21T11:23:19.983Z	  Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2026-04-21T11:23:19.983Z	  ⚠ Unsupported metadata viewport is configured in metadata export in /services/[slug]. Please move it to viewport export instead.
+2026-04-21T11:23:19.983Z	  Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2026-04-21T11:23:19.983Z	  ⚠ Unsupported metadata viewport is configured in metadata export in /services. Please move it to viewport export instead.
+2026-04-21T11:23:19.983Z	  Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2026-04-21T11:23:19.983Z	  ⚠ Unsupported metadata viewport is configured in metadata export in /team/[slug]. Please move it to viewport export instead.
+2026-04-21T11:23:19.983Z	  Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2026-04-21T11:23:19.983Z	  ⚠ Unsupported metadata viewport is configured in metadata export in /team/[slug]. Please move it to viewport export instead.
+2026-04-21T11:23:19.983Z	  Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2026-04-21T11:23:19.983Z	  ⚠ Unsupported metadata viewport is configured in metadata export in /team/[slug]. Please move it to viewport export instead.
+2026-04-21T11:23:19.983Z	  Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2026-04-21T11:23:19.983Z	  ⚠ Unsupported metadata viewport is configured in metadata export in /team. Please move it to viewport export instead.
+2026-04-21T11:23:19.983Z	  Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+2026-04-21T11:23:19.983Z	  node:fs:442
+2026-04-21T11:23:19.983Z	      return binding.readFileUtf8(path, stringToFlags(options.flag));
+2026-04-21T11:23:19.983Z	                     ^
+2026-04-21T11:23:19.983Z	  
+2026-04-21T11:23:19.983Z	  Error: ENOENT: no such file or directory, open '/opt/buildhome/repo/.next/standalone/.next/server/pages-manifest.json'
+2026-04-21T11:23:19.983Z	      at Object.readFileSync (node:fs:442:20)
+2026-04-21T11:23:19.983Z	      at Module.getHtmlPages (file:///opt/buildhome/repo/node_modules/@opennextjs/aws/dist/build/helper.js:191:25)
+2026-04-21T11:23:19.983Z	      at createCacheAssets (file:///opt/buildhome/repo/node_modules/@opennextjs/aws/dist/build/createAssets.js:75:35)
+2026-04-21T11:23:19.984Z	      at build (file:///opt/buildhome/repo/node_modules/@opennextjs/cloudflare/dist/cli/build/build.js:69:44)
+2026-04-21T11:23:19.984Z	      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2026-04-21T11:23:19.984Z	      at async buildCommand (file:///opt/buildhome/repo/node_modules/@opennextjs/cloudflare/dist/cli/commands/build.js:40:5) {
+2026-04-21T11:23:19.984Z	    errno: -2,
+2026-04-21T11:23:19.984Z	    code: 'ENOENT',
+2026-04-21T11:23:19.985Z	    syscall: 'open',
+2026-04-21T11:23:19.985Z	    path: '/opt/buildhome/repo/.next/standalone/.next/server/pages-manifest.json'
+2026-04-21T11:23:19.986Z	  }
+2026-04-21T11:23:19.986Z	  
+2026-04-21T11:23:19.986Z	  Node.js v22.16.0
+2026-04-21T11:23:19.986Z	  
+2026-04-21T11:23:19.986Z	  ┌─────────────────────────────┐
+2026-04-21T11:23:19.987Z	  │ OpenNext — Cloudflare build │
+2026-04-21T11:23:19.987Z	  └─────────────────────────────┘
+2026-04-21T11:23:19.987Z	  
+2026-04-21T11:23:19.987Z	  App directory: /opt/buildhome/repo
+2026-04-21T11:23:19.987Z	  Next.js version : 16.2.3
+2026-04-21T11:23:19.987Z	  @opennextjs/cloudflare version: 1.19.3
+2026-04-21T11:23:19.987Z	  @opennextjs/aws version: 3.10.2
+2026-04-21T11:23:19.987Z	  
+2026-04-21T11:23:19.987Z	  ┌─────────────────────────────────┐
+2026-04-21T11:23:19.987Z	  │ OpenNext — Building Next.js app │
+2026-04-21T11:23:19.987Z	  └─────────────────────────────────┘
+2026-04-21T11:23:19.987Z	  
+2026-04-21T11:23:19.987Z	  
+2026-04-21T11:23:19.987Z	  > template-nextjs@0.1.0 build
+2026-04-21T11:23:19.987Z	  > next build
+2026-04-21T11:23:19.987Z	  
+2026-04-21T11:23:19.988Z	  ▲ Next.js 16.2.3 (Turbopack)
+2026-04-21T11:23:19.988Z	  - Experiments (use with caution):
+2026-04-21T11:23:19.989Z	    · optimizePackageImports
+2026-04-21T11:23:19.989Z	  
+2026-04-21T11:23:19.989Z	  Using secrets defined in .dev.vars
+2026-04-21T11:23:19.989Z	    Creating an optimized production build ...
+2026-04-21T11:23:19.989Z	  ✓ Compiled successfully in 7.6s
+2026-04-21T11:23:19.989Z	    Running TypeScript ...
+2026-04-21T11:23:19.989Z	    Finished TypeScript in 6.6s ...
+2026-04-21T11:23:19.989Z	    Collecting page data using 1 worker ...
+2026-04-21T11:23:19.989Z	    Generating static pages using 1 worker (0/25) ...
+2026-04-21T11:23:19.989Z	    Generating static pages using 1 worker (6/25) 
+2026-04-21T11:23:19.990Z	    Generating static pages using 1 worker (12/25) 
+2026-04-21T11:23:19.990Z	    Generating static pages using 1 worker (18/25) 
+2026-04-21T11:23:19.990Z	  ✓ Generating static pages using 1 worker (25/25) in 836ms
+2026-04-21T11:23:19.990Z	    Finalizing page optimization ...
+2026-04-21T11:23:19.990Z	  
+2026-04-21T11:23:19.990Z	  Route (app)
+2026-04-21T11:23:19.990Z	  ┌ ○ /
+2026-04-21T11:23:19.990Z	  ├ ○ /_not-found
+2026-04-21T11:23:19.990Z	  ├ ○ /about
+2026-04-21T11:23:19.990Z	  ├ ○ /blog
+2026-04-21T11:23:19.990Z	  ├ ● /blog/[slug]
+2026-04-21T11:23:19.990Z	  │ ├ /blog/2025-ecommerce-trends
+2026-04-21T11:23:19.990Z	  │ ├ /blog/how-to-choose-platform
+2026-04-21T11:23:19.990Z	  │ ├ /blog/seo-optimization-tips
+2026-04-21T11:23:19.990Z	  │ └ [+2 more paths]
+2026-04-21T11:23:19.990Z	  ├ ○ /chatbot
+2026-04-21T11:23:19.990Z	  ├ ○ /contact
+2026-04-21T11:23:19.991Z	  ├ ○ /designs
+2026-04-21T11:23:19.991Z	  ├ ○ /faq
+2026-04-21T11:23:19.991Z	  ├ ○ /features
+2026-04-21T11:23:19.991Z	  ├ ○ /integrations
+2026-04-21T11:23:19.991Z	  ├ ○ /pricing
+2026-04-21T11:23:19.991Z	  ├ ○ /services
+2026-04-21T11:23:19.992Z	  ├ ● /services/[slug]
+2026-04-21T11:23:19.992Z	  │ ├ /services/website
+2026-04-21T11:23:19.992Z	  │ └ /services/miniprogram
+2026-04-21T11:23:19.992Z	  ├ ○ /team
+2026-04-21T11:23:19.992Z	  └ ● /team/[slug]
+2026-04-21T11:23:19.992Z	    ├ /team/member-1
+2026-04-21T11:23:19.992Z	    ├ /team/member-2
+2026-04-21T11:23:19.992Z	    └ /team/member-3
+2026-04-21T11:23:19.992Z	  
+2026-04-21T11:23:19.992Z	  
+2026-04-21T11:23:19.992Z	  ○  (Static)  prerendered as static content
+2026-04-21T11:23:19.993Z	  ●  (SSG)     prerendered as static HTML (uses generateStaticParams)
+2026-04-21T11:23:19.993Z	  
+2026-04-21T11:23:19.993Z	  
+2026-04-21T11:23:19.993Z	  ┌──────────────────────────────┐
+2026-04-21T11:23:19.993Z	  │ OpenNext — Generating bundle │
+2026-04-21T11:23:19.993Z	  └──────────────────────────────┘
+2026-04-21T11:23:19.993Z	  
+2026-04-21T11:23:19.993Z	  Bundling middleware function...
+2026-04-21T11:23:19.993Z	  Bundling static assets...
+2026-04-21T11:23:19.994Z	  Bundling cache assets...
+2026-04-21T11:23:19.994Z	      at makeError (/opt/buildhome/.npm/_npx/32026684e21afda6/node_modules/wrangler/wrangler-dist/cli.js:53998:18)
+2026-04-21T11:23:19.994Z	      at handlePromise (/opt/buildhome/.npm/_npx/32026684e21afda6/node_modules/wrangler/wrangler-dist/cli.js:54465:29)
+2026-04-21T11:23:19.994Z	      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2026-04-21T11:23:19.994Z	      at async runCommand (/opt/buildhome/.npm/_npx/32026684e21afda6/node_modules/wrangler/wrangler-dist/cli.js:135638:5)
+2026-04-21T11:23:19.994Z	      at async runAutoConfig (/opt/buildhome/.npm/_npx/32026684e21afda6/node_modules/wrangler/wrangler-dist/cli.js:232240:7)
+2026-04-21T11:23:19.994Z	      at async Object.handler (/opt/buildhome/.npm/_npx/32026684e21afda6/node_modules/wrangler/wrangler-dist/cli.js:233538:41)
+2026-04-21T11:23:19.995Z	      at async /opt/buildhome/.npm/_npx/32026684e21afda6/node_modules/wrangler/wrangler-dist/cli.js:182258:26
+2026-04-21T11:23:19.995Z	      at async Object.handler (/opt/buildhome/.npm/_npx/32026684e21afda6/node_modules/wrangler/wrangler-dist/cli.js:182207:7) {
+2026-04-21T11:23:19.995Z	    shortMessage: 'Command failed with exit code 1: npx opennextjs-cloudflare build',
+2026-04-21T11:23:19.995Z	    command: 'npx opennextjs-cloudflare build',
+2026-04-21T11:23:19.995Z	    escapedCommand: 'npx opennextjs-cloudflare build',
+2026-04-21T11:23:19.995Z	    exitCode: 1,
+2026-04-21T11:23:19.996Z	    signal: undefined,
+2026-04-21T11:23:19.996Z	    signalDescription: undefined,
+2026-04-21T11:23:19.996Z	    stdout: '\n' +
+2026-04-21T11:23:19.996Z	      '┌─────────────────────────────┐\n' +
+2026-04-21T11:23:19.996Z	      '│ OpenNext — Cloudflare build │\n' +
+2026-04-21T11:23:19.996Z	      '└─────────────────────────────┘\n' +
+2026-04-21T11:23:19.996Z	      '\n' +
+2026-04-21T11:23:19.996Z	      'App directory: /opt/buildhome/repo\n' +
+2026-04-21T11:23:19.996Z	      'Next.js version : 16.2.3\n' +
+2026-04-21T11:23:19.996Z	      '@opennextjs/cloudflare version: 1.19.3\n' +
+2026-04-21T11:23:19.996Z	      '@opennextjs/aws version: 3.10.2\n' +
+2026-04-21T11:23:19.996Z	      '\n' +
+2026-04-21T11:23:19.996Z	      '┌─────────────────────────────────┐\n' +
+2026-04-21T11:23:19.996Z	      '│ OpenNext — Building Next.js app │\n' +
+2026-04-21T11:23:19.996Z	      '└─────────────────────────────────┘\n' +
+2026-04-21T11:23:19.996Z	      '\n' +
+2026-04-21T11:23:19.996Z	      '\n' +
+2026-04-21T11:23:19.996Z	      '> template-nextjs@0.1.0 build\n' +
+2026-04-21T11:23:19.996Z	      '> next build\n' +
+2026-04-21T11:23:19.996Z	      '\n' +
+2026-04-21T11:23:19.997Z	      '▲ Next.js 16.2.3 (Turbopack)\n' +
+2026-04-21T11:23:19.997Z	      '- Experiments (use with caution):\n' +
+2026-04-21T11:23:19.997Z	      '  · optimizePackageImports\n' +
+2026-04-21T11:23:19.997Z	      '\n' +
+2026-04-21T11:23:19.997Z	      'Using secrets defined in .dev.vars\n' +
+2026-04-21T11:23:19.997Z	      '  Creating an optimized production build ...\n' +
+2026-04-21T11:23:19.997Z	      '✓ Compiled successfully in 7.6s\n' +
+2026-04-21T11:23:19.997Z	      '  Running TypeScript ...\n' +
+2026-04-21T11:23:19.997Z	      '  Finished TypeScript in 6.6s ...\n' +
+2026-04-21T11:23:19.997Z	      '  Collecting page data using 1 worker ...\n' +
+2026-04-21T11:23:19.997Z	      '  Generating static pages using 1 worker (0/25) ...\n' +
+2026-04-21T11:23:19.997Z	      '  Generating static pages using 1 worker (6/25) \r\n' +
+2026-04-21T11:23:19.997Z	      '  Generating static pages using 1 worker (12/25) \r\n' +
+2026-04-21T11:23:19.997Z	      '  Generating static pages using 1 worker (18/25) \r\n' +
+2026-04-21T11:23:19.997Z	      '✓ Generating static pages using 1 worker (25/25) in 836ms\n' +
+2026-04-21T11:23:19.998Z	      '  Finalizing page optimization ...\n' +
+2026-04-21T11:23:19.998Z	      '\n' +
+2026-04-21T11:23:19.998Z	      'Route (app)\n' +
+2026-04-21T11:23:19.998Z	      '┌ ○ /\n' +
+2026-04-21T11:23:19.998Z	      '├ ○ /_not-found\n' +
+2026-04-21T11:23:19.998Z	      '├ ○ /about\n' +
+2026-04-21T11:23:19.998Z	      '├ ○ /blog\n' +
+2026-04-21T11:23:19.998Z	      '├ ● /blog/[slug]\n' +
+2026-04-21T11:23:19.998Z	      '│ ├ /blog/2025-ecommerce-trends\n' +
+2026-04-21T11:23:19.998Z	      '│ ├ /blog/how-to-choose-platform\n' +
+2026-04-21T11:23:19.998Z	      '│ ├ /blog/seo-optimization-tips\n' +
+2026-04-21T11:23:19.999Z	      '│ └ [+2 more paths]\n' +
+2026-04-21T11:23:19.999Z	      '├ ○ /chatbot\n' +
+2026-04-21T11:23:19.999Z	      '├ ○ /contact\n' +
+2026-04-21T11:23:19.999Z	      '├ ○ /designs\n' +
+2026-04-21T11:23:19.999Z	      '├ ○ /faq\n' +
+2026-04-21T11:23:19.999Z	      '├ ○ /features\n' +
+2026-04-21T11:23:19.999Z	      '├ ○ /integrations\n' +
+2026-04-21T11:23:19.999Z	      '├ ○ /pricing\n' +
+2026-04-21T11:23:19.999Z	      '├ ○ /services\n' +
+2026-04-21T11:23:19.999Z	      '├ ● /services/[slug]\n' +
+2026-04-21T11:23:19.999Z	      '│ ├ /services/website\n' +
+2026-04-21T11:23:19.999Z	      '│ └ /services/miniprogram\n' +
+2026-04-21T11:23:20.000Z	      '├ ○ /team\n' +
+2026-04-21T11:23:20.000Z	      '└ ● /team/[slug]\n' +
+2026-04-21T11:23:20.000Z	      '  ├ /team/member-1\n' +
+2026-04-21T11:23:20.000Z	      '  ├ /team/member-2\n' +
+2026-04-21T11:23:20.000Z	      '  └ /team/member-3\n' +
+2026-04-21T11:23:20.000Z	      '\n' +
+2026-04-21T11:23:20.000Z	      '\n' +
+2026-04-21T11:23:20.000Z	      '○  (Static)  prerendered as static content\n' +
+2026-04-21T11:23:20.000Z	      '●  (SSG)     prerendered as static HTML (uses generateStaticParams)\n' +
+2026-04-21T11:23:20.000Z	      '\n' +
+2026-04-21T11:23:20.000Z	      '\n' +
+2026-04-21T11:23:20.000Z	      '┌──────────────────────────────┐\n' +
+2026-04-21T11:23:20.000Z	      '│ OpenNext — Generating bundle │\n' +
+2026-04-21T11:23:20.000Z	      '└──────────────────────────────┘\n' +
+2026-04-21T11:23:20.000Z	      '\n' +
+2026-04-21T11:23:20.000Z	      'Bundling middleware function...\n' +
+2026-04-21T11:23:20.000Z	      'Bundling static assets...\n' +
+2026-04-21T11:23:20.000Z	      'Bundling cache assets...',
+2026-04-21T11:23:20.000Z	    stderr: '⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase\n' +
+2026-04-21T11:23:20.001Z	      '⚠ Unsupported metadata viewport is configured in metadata export in /_not-found. Please move it to viewport export instead.\n' +
+2026-04-21T11:23:20.001Z	      'Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport\n' +
+2026-04-21T11:23:20.001Z	      '⚠ Unsupported metadata viewport is configured in metadata export in /about. Please move it to viewport export instead.\n' +
+2026-04-21T11:23:20.001Z	      'Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport\n' +
+2026-04-21T11:23:20.001Z	      '⚠ Unsupported metadata viewport is configured in metadata export in /blog/[slug]. Please move it to viewport export instead.\n' +
+2026-04-21T11:23:20.001Z	      'Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport\n' +
+2026-04-21T11:23:20.001Z	      '⚠ Unsupported metadata viewport is configured in metadata export in /blog/[slug]. Please move it to viewport export instead.\n' +
+2026-04-21T11:23:20.001Z	      'Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport\n' +
+2026-04-21T11:23:20.001Z	      '⚠ Unsupported metadata viewport is configured in metadata export in /blog/[slug]. Please move it to viewport export instead.\n' +
+2026-04-21T11:23:20.001Z	      'Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport\n' +
+2026-04-21T11:23:20.001Z	      '⚠ Unsupported metadata viewport is configured in metadata export in /blog/[slug]. Please move it to viewport export instead.\n' +
+2026-04-21T11:23:20.001Z	      'Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport\n' +
+2026-04-21T11:23:20.001Z	      '⚠ Unsupported metadata viewport is configured in metadata export in /blog/[slug]. Please move it to viewport export instead.\n' +
+2026-04-21T11:23:20.001Z	      'Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport\n' +
+2026-04-21T11:23:20.001Z	      '⚠ Unsupported metadata viewport is configured in metadata export in /blog. Please move it to viewport export instead.\n' +
+2026-04-21T11:23:20.002Z	      'Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport\n' +
+2026-04-21T11:23:20.002Z	      '⚠ Unsupported metadata viewport is configured in metadata export in /chatbot. Please move it to viewport export instead.\n' +
+2026-04-21T11:23:20.002Z	      'Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport\n' +
+2026-04-21T11:23:20.002Z	      '⚠ Unsupported metadata viewport is configured in metadata export in /contact. Please move it to viewport export instead.\n' +
+2026-04-21T11:23:20.002Z	      'Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport\n' +
+2026-04-21T11:23:20.002Z	      '⚠ Unsupported metadata viewport is configured in metadata export in /designs. Please move it to viewport export instead.\n' +
+2026-04-21T11:23:20.002Z	      'Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport\n' +
+2026-04-21T11:23:20.002Z	      '⚠ Unsupported metadata viewport is configured in metadata export in /faq. Please move it to viewport export instead.\n' +
+2026-04-21T11:23:20.002Z	      'Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport\n' +
+2026-04-21T11:23:20.002Z	      '⚠ Unsupported metadata viewport is configured in metadata export in /features. Please move it to viewport export instead.\n' +
+2026-04-21T11:23:20.002Z	      'Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport\n' +
+2026-04-21T11:23:20.002Z	      '⚠ Unsupported metadata viewport is configured in metadata export in /integrations. Please move it to viewport export instead.\n' +
+2026-04-21T11:23:20.002Z	      'Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport\n' +
+2026-04-21T11:23:20.002Z	      '⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.\n' +
+2026-04-21T11:23:20.002Z	      'Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport\n' +
+2026-04-21T11:23:20.002Z	      '⚠ Unsupported metadata viewport is configured in metadata export in /pricing. Please move it to viewport export instead.\n' +
+2026-04-21T11:23:20.002Z	      'Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport\n' +
+2026-04-21T11:23:20.003Z	      '⚠ Unsupported metadata viewport is configured in metadata export in /services/[slug]. Please move it to viewport export instead.\n' +
+2026-04-21T11:23:20.004Z	      'Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport\n' +
+2026-04-21T11:23:20.004Z	      '⚠ Unsupported metadata viewport is configured in metadata export in /services/[slug]. Please move it to viewport export instead.\n' +
+2026-04-21T11:23:20.004Z	      'Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport\n' +
+2026-04-21T11:23:20.004Z	      '⚠ Unsupported metadata viewport is configured in metadata export in /services. Please move it to viewport export instead.\n' +
+2026-04-21T11:23:20.007Z	      'Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport\n' +
+2026-04-21T11:23:20.007Z	      '⚠ Unsupported metadata viewport is configured in metadata export in /team/[slug]. Please move it to viewport export instead.\n' +
+2026-04-21T11:23:20.007Z	      'Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport\n' +
+2026-04-21T11:23:20.007Z	      '⚠ Unsupported metadata viewport is configured in metadata export in /team/[slug]. Please move it to viewport export instead.\n' +
+2026-04-21T11:23:20.007Z	      'Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport\n' +
+2026-04-21T11:23:20.007Z	      '⚠ Unsupported metadata viewport is configured in metadata export in /team/[slug]. Please move it to viewport export instead.\n' +
+2026-04-21T11:23:20.007Z	      'Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport\n' +
+2026-04-21T11:23:20.007Z	      '⚠ Unsupported metadata viewport is configured in metadata export in /team. Please move it to viewport export instead.\n' +
+2026-04-21T11:23:20.008Z	      'Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport\n' +
+2026-04-21T11:23:20.008Z	      'node:fs:442\n' +
+2026-04-21T11:23:20.008Z	      '    return binding.readFileUtf8(path, stringToFlags(options.flag));\n' +
+2026-04-21T11:23:20.008Z	      '                   ^\n' +
+2026-04-21T11:23:20.018Z	      '\n' +
+2026-04-21T11:23:20.019Z	      "Error: ENOENT: no such file or directory, open '/opt/buildhome/repo/.next/standalone/.next/server/pages-manifest.json'\n" +
+2026-04-21T11:23:20.019Z	      '    at Object.readFileSync (node:fs:442:20)\n' +
+2026-04-21T11:23:20.019Z	      '    at Module.getHtmlPages (file:///opt/buildhome/repo/node_modules/@opennextjs/aws/dist/build/helper.js:191:25)\n' +
+2026-04-21T11:23:20.019Z	      '    at createCacheAssets (file:///opt/buildhome/repo/node_modules/@opennextjs/aws/dist/build/createAssets.js:75:35)\n' +
+2026-04-21T11:23:20.019Z	      '    at build (file:///opt/buildhome/repo/node_modules/@opennextjs/cloudflare/dist/cli/build/build.js:69:44)\n' +
+2026-04-21T11:23:20.019Z	      '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+2026-04-21T11:23:20.019Z	      '    at async buildCommand (file:///opt/buildhome/repo/node_modules/@opennextjs/cloudflare/dist/cli/commands/build.js:40:5) {\n' +
+2026-04-21T11:23:20.019Z	      '  errno: -2,\n' +
+2026-04-21T11:23:20.019Z	      "  code: 'ENOENT',\n" +
+2026-04-21T11:23:20.019Z	      "  syscall: 'open',\n" +
+2026-04-21T11:23:20.019Z	      "  path: '/opt/buildhome/repo/.next/standalone/.next/server/pages-manifest.json'\n" +
+2026-04-21T11:23:20.019Z	      '}\n' +
+2026-04-21T11:23:20.019Z	      '\n' +
+2026-04-21T11:23:20.019Z	      'Node.js v22.16.0',
+2026-04-21T11:23:20.019Z	    failed: true,
+2026-04-21T11:23:20.019Z	    timedOut: false,
+2026-04-21T11:23:20.019Z	    isCanceled: false,
+2026-04-21T11:23:20.019Z	    killed: false
+2026-04-21T11:23:20.019Z	  }
+2026-04-21T11:23:20.019Z	
+2026-04-21T11:23:20.019Z	
+2026-04-21T11:23:20.020Z	✘ [ERROR] Running custom build `npx opennextjs-cloudflare build` failed. There are likely more logs from your build command above.
+2026-04-21T11:23:20.020Z	
+2026-04-21T11:23:20.020Z	
+2026-04-21T11:23:20.020Z	
+2026-04-21T11:23:20.020Z	Cloudflare collects anonymous telemetry about your usage of Wrangler. Learn more at https://github.com/cloudflare/workers-sdk/tree/main/packages/wrangler/telemetry.md
+2026-04-21T11:23:20.020Z	
+2026-04-21T11:23:20.032Z	🪵  Logs were written to "/opt/buildhome/.config/.wrangler/logs/wrangler-2026-04-21_11-22-12_723.log"
+2026-04-21T11:23:20.095Z	Failed: error occurred while running deploy command
