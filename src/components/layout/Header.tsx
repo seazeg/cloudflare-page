@@ -71,14 +71,14 @@ export function Header({ activePage }: HeaderProps) {
                       <div className="col-lg-4">
                           <div className="header-right-wrapper">
                               <div className="header-sidebar">
-                                  <div className="header-language">
-                                      <LanguageSwitcher />
-                                  </div>
                                   <div className="header-btn">
                                       <Link href={`/${locale}/contact`}>
                                           {t('contact')}{" "}
                                           <i className="fa-solid fa-arrow-down-to-line"></i>
                                       </Link>
+                                  </div>
+                                  <div className="header-language">
+                                      <LanguageSwitcher />
                                   </div>
                                   <div className="header-sidbar-button">
                                       <button

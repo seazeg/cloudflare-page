@@ -17,9 +17,23 @@
   font-family: "AlimamaFangYuanTi", "PingFang SC", "Microsoft YaHei", sans-serif;
 }
 
+/* Header 右侧布局 - 联系按钮、语言选择、汉堡导航在一行 */
+.ai-nest-header-area .header-right-wrapper .header-sidebar {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.ai-nest-header-area .header-right-wrapper .header-sidebar .header-btn,
+.ai-nest-header-area .header-right-wrapper .header-sidebar .header-language,
 .ai-nest-header-area .header-right-wrapper .header-sidebar .header-sidbar-button {
-    height: 36px;
-    vertical-align: top;
+    display: inline-flex;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.ai-nest-header-area .header-right-wrapper .header-sidebar .header-sidbar-button {
+    height: 46px;
     margin-top: 2px;
 }
 
@@ -27,6 +41,18 @@
     z-index: 1 !important;
     height: 40px !important;
     right: -25px !important;
+}
+
+/* 移动端适配 */
+@media (max-width: 991.98px) {
+    .ai-nest-header-area .header-right-wrapper .header-sidebar {
+        gap: 10px;
+    }
+    
+    .ai-nest-header-area .header-right-wrapper .header-sidebar .header-btn a {
+        padding: 8px 20px;
+        font-size: 14px;
+    }
 }
 
 .ai-nest-header-area .header-right-wrapper .header-sidebar .header-sidbar-button .menubars span {
