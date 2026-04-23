@@ -1,0 +1,291 @@
+{
+  "metadata": {
+    "home": {
+      "title": "SurmoX - AI-Powered Independent Site Builder",
+      "description": "Professional independent site building service, using AI technology to quickly build high-performance e-commerce websites, the best Shopify alternative, launch in 5 days"
+    },
+    "about": {
+      "title": "About Us",
+      "description": "Learn about SurmoX team, focused on foreign trade independent sites and WeChat mini program development"
+    },
+    "services": {
+      "title": "Services",
+      "description": "One-stop solution for foreign trade independent sites and WeChat mini programs"
+    },
+    "pricing": {
+      "title": "Pricing",
+      "description": "Transparent pricing, choose the plan that fits you"
+    },
+    "blog": {
+      "title": "Blog",
+      "description": "Cross-border e-commerce and mini program development insights"
+    },
+    "contact": {
+      "title": "Contact Us",
+      "description": "Have questions? Contact us anytime"
+    },
+    "faq": {
+      "title": "FAQ",
+      "description": "Answers to your common questions"
+    },
+    "designs": {
+      "title": "Showcases",
+      "description": "View our successful case studies"
+    },
+    "features": {
+      "title": "Features",
+      "description": "Discover the powerful features of SurmoX"
+    },
+    "integrations": {
+      "title": "Integrations",
+      "description": "Seamless integration with major platforms"
+    },
+    "team": {
+      "title": "Team",
+      "description": "Meet the SurmoX team"
+    },
+    "chatbot": {
+      "title": "AI Assistant",
+      "description": "Intelligent customer service, available 24/7"
+    }
+  },
+  "navigation": {
+    "home": "Home",
+    "services": "Services",
+    "designs": "Showcases",
+    "pricing": "Pricing",
+    "blog": "Blog",
+    "about": "About",
+    "contact": "Contact",
+    "faq": "FAQ",
+    "features": "Features",
+    "integrations": "Integrations",
+    "team": "Team",
+    "chatbot": "AI Assistant"
+  },
+  "language": {
+    "switch": "Switch Language",
+    "zh": "中文",
+    "en": "English"
+  },
+  "home": {
+    "banner": {
+      "title": "Make Going Global Easier",
+      "subtitle": "Launch in 3 days, start your global business",
+      "ctaPrimary": "Get Started",
+      "ctaSecondary": "View Showcases"
+    },
+    "features": {
+      "title": "Key Advantages",
+      "subtitle": "Why Choose SurmoX",
+      "items": [
+        {
+          "title": "Rapid Delivery",
+          "description": "Complete website setup in 3-5 days, quick launch"
+        },
+        {
+          "title": "AI-Powered",
+          "description": "Smart design and copywriting to boost conversion"
+        },
+        {
+          "title": "Great Value",
+          "description": "Transparent pricing, no hidden fees, no monthly rent"
+        }
+      ]
+    },
+    "services": {
+      "title": "Our Services",
+      "items": {
+        "independent": {
+          "title": "Foreign Trade Site",
+          "description": "Best Shopify alternative, built for cross-border e-commerce"
+        },
+        "miniprogram": {
+          "title": "WeChat Mini Program",
+          "description": "Private traffic operation tool, covering all scenarios"
+        }
+      },
+      "cta": "Learn More"
+    },
+    "pricing": {
+      "title": "Transparent Pricing",
+      "subtitle": "Choose the plan that fits you",
+      "startingAt": "Starting at",
+      "cta": "View Pricing"
+    },
+    "showcases": {
+      "title": "Success Stories",
+      "subtitle": "See the excellent work we've created for our clients",
+      "cta": "View All Showcases"
+    },
+    "testimonials": {
+      "title": "Client Testimonials",
+      "subtitle": "What our clients say"
+    },
+    "cta": {
+      "title": "Ready to Start Your Global Journey?",
+      "subtitle": "Contact us now for a customized solution",
+      "button": "Free Consultation"
+    }
+  },
+  "services": {
+    "page": {
+      "title": "Our Services",
+      "subtitle": "One-stop digital solution"
+    },
+    "independent": {
+      "title": "Foreign Trade Site",
+      "description": "Best Shopify Alternative",
+      "features": [
+        "Multiple payment integrations",
+        "Responsive design",
+        "SEO optimization",
+        "Multi-language support",
+        "Membership system",
+        "Data analytics"
+      ]
+    },
+    "miniprogram": {
+      "title": "WeChat Mini Program",
+      "description": "Private Traffic Operation Tool",
+      "features": [
+        "WeChat Pay integration",
+        "Member management",
+        "Distribution & group buying",
+        "Message push notifications",
+        "Data statistics",
+        "Marketing tools"
+      ]
+    }
+  },
+  "pricing": {
+    "page": {
+      "title": "Transparent Pricing",
+      "subtitle": "Choose the plan that fits you, no hidden fees"
+    },
+    "tabs": {
+      "independent": "Foreign Trade Site",
+      "miniprogram": "WeChat Mini Program"
+    },
+    "features": {
+      "title": "Feature Comparison"
+    },
+    "addons": {
+      "title": "Add-on Services",
+      "accelerate": {
+        "title": "Accelerate Package",
+        "description": "Delivery time cut in half"
+      },
+      "source": {
+        "title": "Source Code Package",
+        "description": "Complete source code + documentation"
+      },
+      "training": {
+        "title": "Training Package",
+        "description": "3-hour one-on-one training"
+      },
+      "maintenance": {
+        "title": "Annual Maintenance",
+        "description": "Year-round technical support + security updates"
+      }
+    },
+    "cta": "Get Started"
+  },
+  "contact": {
+    "page": {
+      "title": "Contact Us",
+      "subtitle": "Have questions? We're here to help"
+    },
+    "form": {
+      "title": "Send Message",
+      "name": "Your Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "company": "Company Name",
+      "service": "Service of Interest",
+      "serviceOptions": {
+        "independent": "Foreign Trade Site",
+        "miniprogram": "WeChat Mini Program",
+        "both": "Both",
+        "other": "Other"
+      },
+      "budget": "Budget Range",
+      "message": "Detailed Requirements",
+      "submit": "Send Inquiry",
+      "success": "Message sent! We'll contact you soon.",
+      "error": "Failed to send. Please try again later."
+    },
+    "info": {
+      "title": "Contact Information",
+      "email": "Email",
+      "phone": "Phone",
+      "address": "Address",
+      "hours": "Business Hours",
+      "hoursValue": "Mon-Fri 9:00-18:00"
+    }
+  },
+  "faq": {
+    "page": {
+      "title": "FAQ",
+      "subtitle": "Answers to your common questions"
+    },
+    "categories": {
+      "general": "General",
+      "service": "Services",
+      "pricing": "Pricing & Payment",
+      "technical": "Technical"
+    },
+    "stillHaveQuestions": "Still have questions?",
+    "contactUs": "Contact Us"
+  },
+  "footer": {
+    "company": {
+      "title": "Company",
+      "about": "About Us",
+      "team": "Team",
+      "careers": "Careers"
+    },
+    "services": {
+      "title": "Services",
+      "independent": "Foreign Trade Site",
+      "miniprogram": "WeChat Mini Program",
+      "features": "Features"
+    },
+    "support": {
+      "title": "Support",
+      "faq": "FAQ",
+      "contact": "Contact Us",
+      "blog": "Blog"
+    },
+    "contact": {
+      "title": "Contact",
+      "email": "Email",
+      "phone": "Phone",
+      "address": "Address"
+    },
+    "copyright": "© 2026 SurmoX. All rights reserved.",
+    "slogan": "Make Going Global Easier"
+  },
+  "common": {
+    "learnMore": "Learn More",
+    "contactUs": "Contact Us",
+    "getStarted": "Get Started",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "loading": "Loading...",
+    "readMore": "Read More",
+    "viewAll": "View All",
+    "previous": "Previous",
+    "next": "Next",
+    "back": "Back",
+    "close": "Close",
+    "open": "Open",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "all": "All",
+    "popular": "Popular",
+    "new": "New",
+    "featured": "Featured"
+  }
+}

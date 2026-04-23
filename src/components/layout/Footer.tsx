@@ -1,29 +1,33 @@
 'use client';
 
 import Link from 'next/link';
+import { useTranslations, useLocale } from 'next-intl';
 import { Logo } from '@/components/common/Logo';
 
-const serviceLinks = [
-  { label: '外贸独立站', href: '/services' },
-  { label: '微信小程序', href: '/services' },
-  { label: 'APP定制开发', href: '/services' },
-  { label: '价格方案', href: '/pricing' },
-];
-
-const quickLinks = [
-  { label: '关于我们', href: '/about' },
-  { label: '设计案例', href: '/designs' },
-  { label: '博客文章', href: '/blog' },
-  { label: '常见问题', href: '/faq' },
-];
-
-const contactInfo = {
-  wechat: '扫码添加微信咨询',
-  email: 'contact@surmox.net',
-  hours: '周一至周日 9:00-22:00',
-};
-
 export function Footer() {
+  const t = useTranslations();
+  const locale = useLocale();
+
+  const serviceLinks = [
+    { label: t('footer.services.independent'), href: `/${locale}/services` },
+    { label: t('footer.services.miniprogram'), href: `/${locale}/services` },
+    { label: t('navigation.features'), href: `/${locale}/features` },
+    { label: t('navigation.pricing'), href: `/${locale}/pricing` },
+  ];
+
+  const quickLinks = [
+    { label: t('footer.company.about'), href: `/${locale}/about` },
+    { label: t('navigation.designs'), href: `/${locale}/designs` },
+    { label: t('navigation.blog'), href: `/${locale}/blog` },
+    { label: t('navigation.faq'), href: `/${locale}/faq` },
+  ];
+
+  const contactInfo = {
+    wechat: locale === 'zh' ? '扫码添加微信咨询' : 'Scan QR code to add WeChat',
+    email: 'contact@surmox.net',
+    hours: locale === 'zh' ? '周一至周日 9:00-22:00' : 'Mon-Sun 9:00-22:00',
+  };
+
   return (
     <footer className="main-footer-one" style={{ backgroundImage: 'url(/images/demo-img/footer-bg.png)' }}>
       <div className="auto-container">
@@ -31,18 +35,20 @@ export function Footer() {
           <div className="col-xl-4 col-lg-4 col-md-6">
             <div className="footer-widget-content social">
               <div className="logo">
-                <Link href="/">
+                <Link href={`/${locale}`}>
                   <Logo width="133px" height="100px" color="#ffffff" />
                 </Link>
               </div>
               <div className="footer-desc">
-                跃迁 - 专注独立站搭建，助力品牌出海
+                {t('footer.slogan')}
                 <br />
-                一站式建站服务，让独立站搭建更简单
+                {locale === 'zh' 
+                  ? '一站式建站服务，让独立站搭建更简单' 
+                  : 'One-stop website building service, making independent site creation easier'}
               </div>
               <div className="footer-btn">
-                <Link href="/contact">
-                  免费咨询 <i className="fa-light fa-arrow-right"></i>
+                <Link href={`/${locale}/contact`}>
+                  {t('common.contactUs')} <i className="fa-light fa-arrow-right"></i>
                 </Link>
               </div>
             </div>
@@ -50,7 +56,7 @@ export function Footer() {
 
           <div className="col-xl-2 col-lg-2 col-md-6">
             <div className="footer-widget-content">
-              <h3 className="footer-title">服务项目</h3>
+              <h3 className="footer-title">{t('footer.services.title')}</h3>
               <ul className="footer-menu">
                 {serviceLinks.map((link, index) => (
                   <li key={index}>
@@ -63,7 +69,7 @@ export function Footer() {
 
           <div className="col-xl-2 col-lg-2 col-md-6">
             <div className="footer-widget-content">
-              <h3 className="footer-title">快速链接</h3>
+              <h3 className="footer-title">{t('footer.support.title')}</h3>
               <ul className="footer-menu">
                 {quickLinks.map((link, index) => (
                   <li key={index}>
@@ -76,7 +82,7 @@ export function Footer() {
 
           <div className="col-xl-4 col-lg-4 col-md-6">
             <div className="footer-widget-content contact">
-              <h3 className="footer-title">联系我们</h3>
+              <h3 className="footer-title">{t('footer.contact.title')}</h3>
               <div className="footer-content">
                 <div className="contact-info">
                   <p><i className="fa-brands fa-weixin"></i> {contactInfo.wechat}</p>
@@ -104,7 +110,7 @@ export function Footer() {
           <div className="auto-container">
             <div className="row">
               <div className="copyright-text">
-                © {new Date().getFullYear()} 跃迁 SurmoX. All Rights Reserved.
+                {t('footer.copyright')}
               </div>
             </div>
           </div>

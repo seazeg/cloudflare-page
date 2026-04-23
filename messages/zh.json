@@ -1,0 +1,291 @@
+{
+  "metadata": {
+    "home": {
+      "title": "SurmoX - AI驱动的独立站搭建专家",
+      "description": "专业独立站搭建服务，利用AI技术快速构建高性能电商网站，Shopify最佳替代方案，5天快速上线"
+    },
+    "about": {
+      "title": "关于我们",
+      "description": "了解SurmoX团队，专注外贸独立站与微信小程序开发"
+    },
+    "services": {
+      "title": "服务",
+      "description": "外贸独立站与微信小程序一站式解决方案"
+    },
+    "pricing": {
+      "title": "定价",
+      "description": "透明定价，选择适合您的方案"
+    },
+    "blog": {
+      "title": "博客",
+      "description": "跨境电商与小程序开发干货分享"
+    },
+    "contact": {
+      "title": "联系我们",
+      "description": "有任何问题？随时联系我们"
+    },
+    "faq": {
+      "title": "常见问题",
+      "description": "解答您的常见疑问"
+    },
+    "designs": {
+      "title": "案例展示",
+      "description": "查看我们的成功案例"
+    },
+    "features": {
+      "title": "功能特性",
+      "description": "了解SurmoX的强大功能"
+    },
+    "integrations": {
+      "title": "集成",
+      "description": "与主流平台无缝对接"
+    },
+    "team": {
+      "title": "团队",
+      "description": "认识SurmoX团队"
+    },
+    "chatbot": {
+      "title": "AI助手",
+      "description": "智能客服，24小时在线"
+    }
+  },
+  "navigation": {
+    "home": "首页",
+    "services": "服务",
+    "designs": "案例",
+    "pricing": "定价",
+    "blog": "博客",
+    "about": "关于",
+    "contact": "联系",
+    "faq": "常见问题",
+    "features": "功能",
+    "integrations": "集成",
+    "team": "团队",
+    "chatbot": "AI助手"
+  },
+  "language": {
+    "switch": "切换语言",
+    "zh": "中文",
+    "en": "English"
+  },
+  "home": {
+    "banner": {
+      "title": "让出海更简单",
+      "subtitle": "3天上线，开启全球生意",
+      "ctaPrimary": "立即咨询",
+      "ctaSecondary": "查看案例"
+    },
+    "features": {
+      "title": "核心优势",
+      "subtitle": "为什么选择SurmoX",
+      "items": [
+        {
+          "title": "极速交付",
+          "description": "3-5天完成网站搭建，快速上线运营"
+        },
+        {
+          "title": "AI驱动",
+          "description": "智能设计、智能文案，提升转化率"
+        },
+        {
+          "title": "超高性价比",
+          "description": "价格透明，无隐藏费用，无月租"
+        }
+      ]
+    },
+    "services": {
+      "title": "我们的服务",
+      "items": {
+        "independent": {
+          "title": "外贸独立站",
+          "description": "Shopify最佳替代方案，专为跨境电商打造"
+        },
+        "miniprogram": {
+          "title": "微信小程序",
+          "description": "私域流量运营利器，覆盖全场景"
+        }
+      },
+      "cta": "了解详情"
+    },
+    "pricing": {
+      "title": "透明定价",
+      "subtitle": "选择适合您的方案",
+      "startingAt": "起",
+      "cta": "查看定价"
+    },
+    "showcases": {
+      "title": "成功案例",
+      "subtitle": "看看我们为客户打造的优秀作品",
+      "cta": "查看全部案例"
+    },
+    "testimonials": {
+      "title": "客户评价",
+      "subtitle": "听听客户怎么说"
+    },
+    "cta": {
+      "title": "准备好开启您的出海之旅了吗？",
+      "subtitle": "立即联系我们，获取专属方案",
+      "button": "免费咨询"
+    }
+  },
+  "services": {
+    "page": {
+      "title": "我们的服务",
+      "subtitle": "一站式数字化解决方案"
+    },
+    "independent": {
+      "title": "外贸独立站",
+      "description": "Shopify最佳替代方案",
+      "features": [
+        "多支付方式集成",
+        "响应式设计",
+        "SEO优化",
+        "多语言支持",
+        "会员系统",
+        "数据分析"
+      ]
+    },
+    "miniprogram": {
+      "title": "微信小程序",
+      "description": "私域流量运营利器",
+      "features": [
+        "微信支付集成",
+        "会员管理",
+        "分销拼团",
+        "消息推送",
+        "数据统计",
+        "营销工具"
+      ]
+    }
+  },
+  "pricing": {
+    "page": {
+      "title": "透明定价",
+      "subtitle": "选择适合您的方案，无隐藏费用"
+    },
+    "tabs": {
+      "independent": "外贸独立站",
+      "miniprogram": "微信小程序"
+    },
+    "features": {
+      "title": "功能对比"
+    },
+    "addons": {
+      "title": "增值服务",
+      "accelerate": {
+        "title": "加速包",
+        "description": "交付时间减半"
+      },
+      "source": {
+        "title": "源码包",
+        "description": "完整源代码+技术文档"
+      },
+      "training": {
+        "title": "培训包",
+        "description": "3小时一对一培训"
+      },
+      "maintenance": {
+        "title": "年度维护",
+        "description": "全年技术维护+安全更新"
+      }
+    },
+    "cta": "立即咨询"
+  },
+  "contact": {
+    "page": {
+      "title": "联系我们",
+      "subtitle": "有任何问题？我们随时为您服务"
+    },
+    "form": {
+      "title": "发送消息",
+      "name": "您的姓名",
+      "email": "电子邮箱",
+      "phone": "联系电话",
+      "company": "公司名称",
+      "service": "感兴趣的服务",
+      "serviceOptions": {
+        "independent": "外贸独立站",
+        "miniprogram": "微信小程序",
+        "both": "两者都需要",
+        "other": "其他"
+      },
+      "budget": "预算范围",
+      "message": "详细需求",
+      "submit": "提交咨询",
+      "success": "消息已发送，我们会尽快联系您！",
+      "error": "发送失败，请稍后重试"
+    },
+    "info": {
+      "title": "联系方式",
+      "email": "邮箱",
+      "phone": "电话",
+      "address": "地址",
+      "hours": "工作时间",
+      "hoursValue": "周一至周五 9:00-18:00"
+    }
+  },
+  "faq": {
+    "page": {
+      "title": "常见问题",
+      "subtitle": "解答您的常见疑问"
+    },
+    "categories": {
+      "general": "一般问题",
+      "service": "服务相关",
+      "pricing": "定价付款",
+      "technical": "技术问题"
+    },
+    "stillHaveQuestions": "还有其他问题？",
+    "contactUs": "联系我们"
+  },
+  "footer": {
+    "company": {
+      "title": "公司",
+      "about": "关于我们",
+      "team": "团队",
+      "careers": "加入我们"
+    },
+    "services": {
+      "title": "服务",
+      "independent": "外贸独立站",
+      "miniprogram": "微信小程序",
+      "features": "功能特性"
+    },
+    "support": {
+      "title": "支持",
+      "faq": "常见问题",
+      "contact": "联系我们",
+      "blog": "博客"
+    },
+    "contact": {
+      "title": "联系我们",
+      "email": "邮箱",
+      "phone": "电话",
+      "address": "地址"
+    },
+    "copyright": "© 2026 SurmoX. 保留所有权利。",
+    "slogan": "让出海更简单"
+  },
+  "common": {
+    "learnMore": "了解更多",
+    "contactUs": "联系我们",
+    "getStarted": "立即开始",
+    "submit": "提交",
+    "cancel": "取消",
+    "loading": "加载中...",
+    "readMore": "阅读更多",
+    "viewAll": "查看全部",
+    "previous": "上一页",
+    "next": "下一页",
+    "back": "返回",
+    "close": "关闭",
+    "open": "打开",
+    "search": "搜索",
+    "filter": "筛选",
+    "sort": "排序",
+    "all": "全部",
+    "popular": "热门",
+    "new": "最新",
+    "featured": "精选"
+  }
+}

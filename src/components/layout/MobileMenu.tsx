@@ -1,18 +1,22 @@
 'use client';
 
 import Link from 'next/link';
+import { useTranslations, useLocale } from 'next-intl';
 import { CoreScripts } from '@/lib/scripts';
 import { Logo } from '@/components/common/Logo';
 
-const navItems = [
-  { label: '首页', href: '/' },
-  { label: '服务', href: '/services' },
-  { label: '价格', href: '/pricing' },
-  { label: '关于', href: '/about' },
-  { label: '联系', href: '/contact' },
-];
-
 export function MobileMenu() {
+  const t = useTranslations('navigation');
+  const locale = useLocale();
+
+  const navItems = [
+    { label: t('home'), href: `/${locale}` },
+    { label: t('services'), href: `/${locale}/services` },
+    { label: t('pricing'), href: `/${locale}/pricing` },
+    { label: t('about'), href: `/${locale}/about` },
+    { label: t('contact'), href: `/${locale}/contact` },
+  ];
+
   return (
     <>
       <CoreScripts />
@@ -20,7 +24,7 @@ export function MobileMenu() {
         <div className="mobile-menu">
           <nav className="header-menu">
             <div className="mobile-logo">
-              <Link className="logo_img" href="/" title="跃迁">
+              <Link className="logo_img" href={`/${locale}`} title="SurmoX">
                 <Logo width="100px" height="35px" />
               </Link>
             </div>

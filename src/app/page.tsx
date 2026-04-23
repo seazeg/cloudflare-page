@@ -1,7 +1,6 @@
-import { HomeClient } from '@/components/HomeClient';
-import { getFeaturedPosts } from '@/lib/blog';
+import { redirect } from 'next/navigation';
+import { defaultLocale } from '@/lib/i18n/config';
 
-export default function HomePage() {
-  const blogPosts = getFeaturedPosts();
-  return <HomeClient blogPosts={blogPosts} />;
+export default function RootPage() {
+  redirect(`/${defaultLocale}`);
 }

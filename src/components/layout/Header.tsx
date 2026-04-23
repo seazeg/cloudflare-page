@@ -2,24 +2,29 @@
 
 import { useEffect } from 'react';
 import Link from 'next/link';
+import { useTranslations, useLocale } from 'next-intl';
 import { CoreScripts } from '@/lib/scripts';
 import { Logo } from '@/components/common/Logo';
+import { LanguageSwitcher } from './LanguageSwitcher';
 
 interface HeaderProps {
   activePage?: string;
 }
 
-const navItems = [
-  { label: '首页', href: '/' },
-  { label: '服务', href: '/services' },
-  { label: '效果图', href: '/designs' },
-  { label: '价格', href: '/pricing' },
-  { label: '关于', href: '/about' },
-  { label: '博客', href: '/blog' },
-  { label: '联系', href: '/contact' },
-];
-
 export function Header({ activePage }: HeaderProps) {
+  const t = useTranslations('navigation');
+  const locale = useLocale();
+
+  const navItems = [
+    { label: t('home'), href: `/${locale}` },
+    { label: t('services'), href: `/${locale}/services` },
+    { label: t('designs'), href: `/${locale}/designs` },
+    { label: t('pricing'), href: `/${locale}/pricing` },
+    { label: t('about'), href: `/${locale}/about` },
+    { label: t('blog'), href: `/${locale}/blog` },
+    { label: t('contact'), href: `/${locale}/contact` },
+  ];
+
   useEffect(() => {
     const handleScroll = () => {
       const header = document.getElementById('sticky-header');
@@ -44,15 +49,15 @@ export function Header({ activePage }: HeaderProps) {
                   <div className="row align-items-center">
                       <div className="col-lg-2">
                           <div className="header-logo">
-                              <Link className="active_logo" href="/">
+                              <Link className="active_logo" href={`/${locale}`}>
                                   <Logo width="133px" height="100px" color="#ffffff" />
                               </Link>
-                              <Link className="logo_two" href="/">
+                              <Link className="logo_two" href={`/${locale}`}>
                                   <Logo width="133px" height="100px" color="#ffffff" />
                               </Link>
                           </div>
                       </div>
-                      <div className="col-lg-7">
+                      <div className="col-lg-6">
                           <div className="header-menu">
                               <ul className="nav_scroll">
                                   {navItems.map((item, index) => (
@@ -63,12 +68,15 @@ export function Header({ activePage }: HeaderProps) {
                               </ul>
                           </div>
                       </div>
-                      <div className="col-lg-3">
+                      <div className="col-lg-4">
                           <div className="header-right-wrapper">
                               <div className="header-sidebar">
+                                  <div className="header-language">
+                                      <LanguageSwitcher />
+                                  </div>
                                   <div className="header-btn">
-                                      <Link href="/contact">
-                                          免费咨询{" "}
+                                      <Link href={`/${locale}/contact`}>
+                                          {t('contact')}{" "}
                                           <i className="fa-solid fa-arrow-down-to-line"></i>
                                       </Link>
                                   </div>

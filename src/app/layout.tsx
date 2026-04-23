@@ -1,7 +1,8 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://surmox.com"),
   title: {
     default: "SurmoX - AI驱动的独立站搭建专家",
     template: "%s | SurmoX",
@@ -40,7 +41,11 @@ export const metadata: Metadata = {
   other: {
     "X-UA-Compatible": "IE=edge",
   },
-  viewport: "width=device-width, initial-scale=1",
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
 };
 
 export default function RootLayout({
@@ -49,10 +54,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="zh-CN">
+    <html>
       <head>
         <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
         <link rel="icon" href="/images/favicon.png" type="image/x-icon" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
         <link href="/css/bootstrap.min.css" rel="stylesheet" />
         <link href="/css/animate.css" rel="stylesheet" />
