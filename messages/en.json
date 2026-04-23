@@ -70,26 +70,129 @@
   },
   "home": {
     "banner": {
+      "badge": "Focus on Foreign Trade Sites & WeChat Mini Programs",
       "title": "Make Going Global Easier",
       "subtitle": "Launch in 3 days, start your global business",
-      "ctaPrimary": "Get Started",
-      "ctaSecondary": "View Showcases"
+      "highlight": "Foreign Trade Site · WeChat Mini Program",
+      "description": "Is Shopify too expensive? We offer a more cost-effective solution. 3-day fast delivery, one-time payment for permanent use, no hidden fees. 5 years of industry experience, 100+ successful cases, 98% customer satisfaction.",
+      "cta": "Free Consultation"
     },
-    "features": {
-      "title": "Key Advantages",
-      "subtitle": "Why Choose SurmoX",
+    "about": {
+      "subTitle": "About Us",
+      "title": "5 Years of Expertise in Global Expansion",
+      "description": "SurmoX (Yueqian) was founded in 2019, focusing on providing foreign trade independent sites and WeChat mini program solutions for cross-border e-commerce sellers and SMEs. We understand the pain points of high platform fees and changing rules, and are committed to making independent site building simpler, more affordable, and more efficient.",
+      "cta": "Learn More",
       "items": [
         {
-          "title": "Rapid Delivery",
-          "description": "Complete website setup in 3-5 days, quick launch"
+          "title": "Technical Strength",
+          "description": "5+ years of development experience, 100+ successful cases, proficient in full-stack development"
         },
         {
-          "title": "AI-Powered",
-          "description": "Smart design and copywriting to boost conversion"
+          "title": "Rapid Delivery",
+          "description": "3-day quick launch, professional project management, 98% on-time delivery rate"
         },
         {
           "title": "Great Value",
-          "description": "Transparent pricing, no hidden fees, no monthly rent"
+          "description": "Transparent pricing, no hidden fees, one-time payment for permanent use"
+        }
+      ]
+    },
+    "benefits": {
+      "items": [
+        {
+          "title": "Fast Launch",
+          "description": "5-day rapid delivery to get your products to global customers quickly and seize market opportunities. Professional team collaboration ensures on-time project delivery."
+        },
+        {
+          "title": "Transparent Pricing",
+          "description": "One-time payment, no monthly fees or commissions. Price is only 1/3 of Shopify with equally powerful features, perfect for small and medium sellers."
+        },
+        {
+          "title": "Localized Service",
+          "description": "Understanding domestic seller pain points with fast response times. Chinese communication support, no timezone barriers, 5-minute response to issues."
+        }
+      ]
+    },
+    "features": {
+      "subTitle": "Core Services",
+      "title": ["Foreign Trade Site · WeChat Mini Program", "Dual Engine Drive for Business Growth"],
+      "cta": "View All Services",
+      "items": [
+        {
+          "title": "Foreign Trade Site",
+          "description": "Shopify alternative, built for cross-border e-commerce. Supports PayPal, Stripe and other payment methods, responsive design, SEO-friendly, 3-15 day fast launch to help you expand into global markets.",
+          "checklist": [
+            "PayPal / Stripe / Credit Card Payments",
+            "Responsive Design, Multi-device Compatible",
+            "SEO Optimization, Improve Search Rankings",
+            "Multi-language & Multi-currency Support",
+            "Starting at ¥2,999, 3-day Delivery"
+          ]
+        },
+        {
+          "title": "WeChat Mini Program",
+          "description": "Private traffic operation tool covering all scenarios: shopping mall, showcase, and utility types. Supports WeChat Pay, membership system, distribution & group buying to boost brand private domain operations and user retention.",
+          "checklist": [
+            "Seamless WeChat Pay Integration",
+            "Membership System + Points Feature",
+            "Distribution & Group Buying for Viral Growth",
+            "Data Analytics for Precision Operations",
+            "Starting at ¥4,999, 5-day Delivery"
+          ]
+        }
+      ]
+    },
+    "aboutTwo": {
+      "subTitle": "About SurmoX",
+      "title": ["SurmoX", "Make Going Global Easier"],
+      "description": "SurmoX (Yueqian) was founded in 2019, focusing on providing foreign trade independent sites and WeChat mini program solutions for cross-border e-commerce sellers and SMEs. We understand the pain points of high platform fees and changing rules, and are committed to making independent site building simpler, more affordable, and more efficient. Over 5 years, we have served 100+ clients across home goods, fashion, beauty, electronics and other industries, with a 98% customer satisfaction rate.",
+      "cta": "Contact Us",
+      "listItems": [
+        "5+ years industry experience, 100+ successful cases",
+        "3-day rapid delivery, seize market opportunities",
+        "Transparent pricing, one-time payment for permanent use",
+        "7×24 technical support, 5-minute response time",
+        "Foreign Trade Site + WeChat Mini Program dual engine"
+      ]
+    },
+    "process": {
+      "subTitle": "Our Process",
+      "title": ["Simple 4 Steps", "Start Your Independent Site"],
+      "items": [
+        {
+          "title": "Requirements Discussion",
+          "description": "Understand your business model, target market, and feature requirements to create a tailored site-building plan for you"
+        },
+        {
+          "title": "Plan Confirmation",
+          "description": "Provide detailed site-building plan and quote, sign contract after confirmation, and start the project"
+        },
+        {
+          "title": "Development & Delivery",
+          "description": "Complete development on schedule, provide test environment preview to ensure your satisfaction"
+        },
+        {
+          "title": "Launch & Operations",
+          "description": "Assist with domain configuration and launch, provide operation training and long-term technical support"
+        }
+      ]
+    },
+    "portfolio": {
+      "subTitle": "Success Stories",
+      "title": ["They Chose Us", "Real Case Studies"],
+      "cta": "View More Cases",
+      "items": [
+        {
+          "category": "Foreign Trade Site",
+          "title": "Home Goods Brand Site",
+          "description": "Site completed in 5 days, monthly sales exceeded 100,000+",
+          "result": "Conversion rate up 35%"
+        },
+        {
+          "category": "WeChat Mini Program",
+          "title": "Fashion Brand Store",
+          "description": "Customized design, creating a premium brand image",
+          "result": "Average order value up 50%"
         }
       ]
     },
@@ -108,10 +211,50 @@
       "cta": "Learn More"
     },
     "pricing": {
-      "title": "Transparent Pricing",
-      "subtitle": "Choose the plan that fits you",
+      "subTitle": "Transparent Pricing",
+      "title": ["Choose the Right Plan", "One-time payment, no hidden fees, permanent use"],
       "startingAt": "Starting at",
-      "cta": "View Pricing"
+      "cta": "View Pricing",
+      "popular": "Most Popular",
+      "delivery": "Delivery",
+      "items": {
+        "0": {
+          "tag": "Entry Level",
+          "name": "Site - Basic",
+          "description": "For individual entrepreneurs and small sellers",
+          "features": {
+            "0": "5 core pages",
+            "1": "PayPal + Stripe payments",
+            "2": "Responsive design",
+            "3": "SEO optimization",
+            "4": "2 months technical support"
+          }
+        },
+        "1": {
+          "tag": "Most Popular",
+          "name": "Site - Advanced",
+          "description": "For growing small and medium sellers",
+          "features": {
+            "0": "10 pages with more features",
+            "1": "Multiple payment methods",
+            "2": "Bilingual support",
+            "3": "Data analytics dashboard",
+            "4": "3 months technical support"
+          }
+        },
+        "2": {
+          "tag": "Private Traffic",
+          "name": "Mini Program - Store",
+          "description": "For brands wanting private traffic",
+          "features": {
+            "0": "Product management system",
+            "1": "Shopping cart + order management",
+            "2": "WeChat Pay integration",
+            "3": "Logistics tracking",
+            "4": "3 months technical support"
+          }
+        }
+      }
     },
     "showcases": {
       "title": "Success Stories",
@@ -119,8 +262,12 @@
       "cta": "View All Showcases"
     },
     "testimonials": {
-      "title": "Client Testimonials",
-      "subtitle": "What our clients say"
+      "subTitle": "Client Testimonials",
+      "title": ["What They Say", "100+ clients served in 5 years, 98% satisfaction"]
+    },
+    "faq": {
+      "subTitle": "FAQ",
+      "title": ["You Might Want to Know", "Answers to site-building questions"]
     },
     "cta": {
       "title": "Ready to Start Your Global Journey?",

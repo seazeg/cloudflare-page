@@ -14,6 +14,7 @@ interface FeaturesProps {
   subTitle?: string;
   title?: string[];
   items?: FeatureItem[];
+  ctaText?: string;
 }
 
 const defaultFeatures: FeatureItem[] = [
@@ -50,6 +51,7 @@ export function Features({
   subTitle = '核心服务',
   title = ['外贸独立站 · 微信小程序', '双擎驱动，助力业务增长'],
   items = defaultFeatures,
+  ctaText = '了解全部服务',
 }: FeaturesProps) {
   return (
     <section className="feature-section-one">
@@ -61,7 +63,7 @@ export function Features({
           <div className="col-xl-6 col-lg-4">
             <div className="feature-btn">
               <Link href="/services">
-                了解全部服务
+                {ctaText}
                 <i className="fa-light fa-arrow-right"></i>
               </Link>
             </div>

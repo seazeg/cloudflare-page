@@ -15,13 +15,23 @@ export async function generateMetadata({
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "metadata.home" });
 
+  // 生成 hreflang 链接
+  const baseUrl = "https://surmox.com";
+  const languages: Record<string, string> = {
+    zh: `${baseUrl}/zh`,
+    en: `${baseUrl}/en`,
+    "x-default": `${baseUrl}/zh`,
+  };
+
   return {
     title: {
       default: t("title"),
       template: "%s | SurmoX",
     },
     description: t("description"),
-    keywords: ["独立站", "Shopify替代", "电商建站", "AI解决方案", "网站建设", "数字化转型"],
+    keywords: locale === "zh" 
+      ? ["独立站", "Shopify替代", "电商建站", "AI解决方案", "网站建设", "数字化转型"]
+      : ["independent site", "Shopify alternative", "e-commerce", "AI solution", "website building"],
     authors: [{ name: "SurmoX Team" }],
     creator: "SurmoX",
     publisher: "SurmoX",
@@ -29,10 +39,14 @@ export async function generateMetadata({
       index: true,
       follow: true,
     },
+    alternates: {
+      canonical: `${baseUrl}/${locale}`,
+      languages,
+    },
     openGraph: {
       type: "website",
       locale: locale === "zh" ? "zh_CN" : "en_US",
-      url: "https://surmox.com",
+      url: `${baseUrl}/${locale}`,
       siteName: "SurmoX",
       title: t("title"),
       description: t("description"),

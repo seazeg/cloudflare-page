@@ -12,9 +12,9 @@
 | 阶段一：基础架构 | ✅ 已完成 | 2026-04-22 |
 | 阶段二：布局国际化 | ✅ 已完成 | 2026-04-22 |
 | 阶段三：页面迁移 | ✅ 已完成 | 2026-04-22 |
-| 阶段四：动态内容国际化 | ⏳ 待开始 | - |
-| 阶段五：SEO & 优化 | ⏳ 待开始 | - |
-| 阶段六：测试 & 部署 | ⏳ 待开始 | - |
+| 阶段四：动态内容国际化 | ✅ 已完成 | 2026-04-23 |
+| 阶段五：SEO & 优化 | ✅ 已完成 | 2026-04-23 |
+| 阶段六：测试 & 部署 | ✅ 已完成 | 2026-04-23 |
 
 ---
 
@@ -1060,6 +1060,141 @@ interface DesignShowcase {
 
 ---
 
+## 十四、实施完成总结
+
+### 14.1 阶段四：动态内容国际化 (2026-04-23) ✅
+
+**完成内容**:
+
+| Section | 中文翻译 | 英文翻译 | 组件更新 |
+|---------|----------|----------|----------|
+| Banner | ✅ | ✅ | ✅ |
+| Benefits | ✅ | ✅ | ✅ |
+| Features | ✅ | ✅ | ✅ |
+| About | ✅ | ✅ | ✅ |
+| AboutTwo | ✅ | ✅ | ✅ |
+| Process | ✅ | ✅ | ✅ |
+| Portfolio | ✅ | ✅ | ✅ |
+| FAQ | ✅ | ✅ | ✅ |
+| Pricing | ✅ | ✅ | ✅ |
+| Testimonial | ✅ | ✅ | ✅ |
+
+**关键文件更新**:
+- `src/components/HomeClient.tsx` - 使用 `useTranslations` 获取所有翻译并传递给子组件
+- `src/components/sections/Features.tsx` - 添加 `ctaText` 属性支持
+- `messages/zh.json` - 添加所有首页 sections 的中文翻译
+- `messages/en.json` - 添加所有首页 sections 的英文翻译
+
+**翻译结构**:
+```json
+{
+  "home": {
+    "banner": { "badge", "title", "subtitle", "highlight", "description", "cta" },
+    "about": { "subTitle", "title", "description", "items", "cta" },
+    "benefits": { "items" },
+    "features": { "subTitle", "title", "cta", "items" },
+    "aboutTwo": { "subTitle", "title", "description", "listItems", "cta" },
+    "process": { "subTitle", "title", "items" },
+    "portfolio": { "subTitle", "title", "cta", "items" },
+    "faq": { "subTitle", "title" },
+    "pricing": { "subTitle", "title", "items", "startingAt", "delivery", "popular", "cta" },
+    "testimonials": { "subTitle", "title" }
+  }
+}
+```
+
+### 14.2 阶段五：SEO & 优化 (2026-04-23) ✅
+
+**完成内容**:
+
+1. **hreflang 标签**
+   - 在 `src/app/[locale]/layout.tsx` 中添加 `alternates.languages` 配置
+   - 支持 `zh`、`en` 和 `x-default` 语言版本
+   - 动态生成 canonical URL
+
+2. **多语言 Sitemap**
+   - 创建 `src/app/sitemap.ts`
+   - 为所有页面生成多语言版本的 sitemap 条目
+   - 包含 `alternates.languages` 属性
+
+3. **Robots.txt**
+   - 创建 `src/app/robots.ts`
+   - 配置允许/禁止爬虫访问的路径
+   - 指向 sitemap.xml
+
+4. **Metadata 优化**
+   - 根据当前语言动态设置 keywords
+   - 更新 OpenGraph 和 Twitter Card 的 locale 和 url
+
+### 14.3 阶段六：测试 & 部署 (2026-04-23) ✅
+
+**测试结果**:
+```
+✓ Compiled successfully in 8.1s
+✓ TypeScript check passed
+✓ Static pages generated (6/6)
+✓ Build completed successfully
+```
+
+**构建输出**:
+```
+Route (app)
+┌ ○ /                    # 根页面重定向
+├ ○ /_not-found          # 404 页面
+├ ƒ /[locale]            # 国际化首页
+├ ƒ /[locale]/about      # 关于页面
+├ ƒ /[locale]/blog       # 博客列表
+├ ● /[locale]/blog/[slug] # 博客详情
+├ ƒ /[locale]/chatbot    # 聊天机器人
+├ ƒ /[locale]/contact    # 联系页面
+├ ƒ /[locale]/designs    # 案例展示
+├ ƒ /[locale]/faq        # 常见问题
+├ ƒ /[locale]/features   # 功能特性
+├ ƒ /[locale]/integrations # 集成页面
+├ ƒ /[locale]/pricing    # 定价页面
+├ ƒ /[locale]/services   # 服务页面
+├ ● /[locale]/services/[slug] # 服务详情
+├ ● /[locale]/team/[slug] # 团队详情
+├ ○ /robots.txt          # 爬虫配置
+└ ○ /sitemap.xml         # 站点地图
+```
+
+### 14.4 问题修复记录
+
+| 问题 | 原因 | 解决方案 |
+|------|------|----------|
+| `useTranslations` 上下文错误 | 页面不在 `[locale]` 路由组内 | 迁移所有页面到 `[locale]` 目录 |
+| Next.js 16 异步 params | `params` 变为 Promise | 使用 `await` 解包 params |
+| next-intl 配置文件未找到 | 缺少 `src/i18n.ts` | 创建配置文件并添加插件 |
+| 样式切换时失效 | 软路由导致 CSS 重新加载 | 使用 `window.location.href` 硬跳转 |
+| 缺少根布局标签 | Next.js 要求根布局有 html/body | 在根 layout.tsx 添加 html/body |
+| i18n.ts 类型错误 | `locale` 可能为 undefined | 添加 `as string` 类型断言 |
+
+### 14.5 最终产出清单
+
+**新增文件**:
+- `middleware.ts` - i18n 路由中间件
+- `src/i18n.ts` - next-intl 配置
+- `src/lib/i18n/config.ts` - 语言配置
+- `src/lib/i18n/utils.ts` - i18n 工具函数
+- `src/components/layout/LanguageSwitcher.tsx` - 语言切换组件
+- `messages/zh.json` - 中文翻译
+- `messages/en.json` - 英文翻译
+- `src/app/sitemap.ts` - 多语言站点地图
+- `src/app/robots.ts` - 爬虫配置
+
+**修改文件**:
+- `next.config.ts` - 添加 next-intl 插件
+- `src/app/layout.tsx` - 添加 html/body 标签
+- `src/app/page.tsx` - 重定向到默认语言
+- `src/app/[locale]/layout.tsx` - 国际化布局
+- `src/app/[locale]/page.tsx` - 首页
+- `src/components/layout/Header.tsx` - 添加语言切换器
+- `src/components/HomeClient.tsx` - 使用翻译
+- `src/app/globals.css` - 添加 Header 布局样式
+
+---
+
 **计划制定**: 2026-04-22  
-**最后更新**: 2026-04-22  
-**版本**: v1.0
+**最后更新**: 2026-04-23  
+**版本**: v1.1 - 国际化实施完成
